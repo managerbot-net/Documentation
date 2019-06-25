@@ -10,6 +10,8 @@
 Generates random American girl
 {% endhint %}
 
+![](../.gitbook/assets/image%20%282%29.png)
+
 ## Chuck Norris
 
 {% hint style="success" %}
@@ -21,8 +23,6 @@ Sends a Chuck Norris joke
 {% endhint %}
 
 ![](../.gitbook/assets/a%20%281%29.PNG)
-
-![](../.gitbook/assets/aa.PNG)
 
 ## Weather
 
@@ -38,6 +38,8 @@ Sends weather forecast about a selected town
 @Manager#9545 weather Prague
 ```
 
+![](../.gitbook/assets/image.png)
+
 ## Random Picture
 
 {% hint style="success" %}
@@ -51,4 +53,6 @@ Bot sends a random picture.
 ```text
 @Manager#9545 randomPicture 400 300 params
 ```
+
+![](../.gitbook/assets/image%20%281%29.png)
 
