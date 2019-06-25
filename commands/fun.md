@@ -1,6 +1,6 @@
 # Fun
 
-### Echo
+## Echo
 
 {% hint style="success" %}
 @Manager\#9545 **echo \[message\]**
@@ -14,7 +14,7 @@ Says something.
 @Manager#9545 echo Hello!
 ```
 
-### Pick
+## Pick
 
 {% hint style="success" %}
 @Manager\#9545 **pick \[message\]**
@@ -28,7 +28,7 @@ Randomly picks one of options.
 @Manager#9545 pick 1|2|3
 ```
 
-### Roll Die
+## Roll Die
 
 {% hint style="success" %}
 @Manager\#9545 **rollDie \[number\]**
@@ -42,10 +42,10 @@ Rolls a die.
 @Manager#9545 rollDie 3
 ```
 
-### Random Number
+## Random Number
 
 {% hint style="success" %}
-@Manager\#9545 **randomNumber \<\min\> \<\max\>**
+@Manager\#9545 **randomNumber \&lt;\min&gt; \&lt;\max&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -56,7 +56,7 @@ Rock Scissors Paper Game
 @Manager#9545 randomNumber1 100
 ```
 
-### Rock Scissors Paper
+## Rock Scissors Paper
 
 {% hint style="success" %}
 @Manager\#9545 **rockScissorsPaper**
@@ -66,7 +66,7 @@ Rock Scissors Paper Game
 Rock Scissors Paper Game
 {% endhint %}
 
-### Flip A Coin
+## Flip A Coin
 
 {% hint style="success" %}
 @Manager\#9545 **flipCoin**
@@ -76,7 +76,7 @@ Rock Scissors Paper Game
 Flip a coin game
 {% endhint %}
 
-### Math
+## Math
 
 {% hint style="success" %}
 @Manager\#9545 **math \[content\]**
@@ -90,12 +90,10 @@ Solves simple mathematical equations.
 @Manager#9545 math 5 + 5
 ```
 
-### Color
+## Color
 
 {% hint style="success" %}
-@Manager\#9545 **color**
-@Manager\#9545 **color \[hexadecimal\]**
-@Manager\#9545 **color \[red\] \[green\] \[blue\]**
+@Manager\#9545 **color** @Manager\#9545 **color \[hexadecimal\]** @Manager\#9545 **color \[red\] \[green\] \[blue\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -107,3 +105,4 @@ Generates random color or show you the color.
 @Manager#9545 color #00ffff
 @Manager#9545 0 255 255
 ```
+

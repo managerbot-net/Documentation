@@ -1,6 +1,6 @@
 # API
 
-### Find Girl Friend
+## Find Girl Friend
 
 {% hint style="success" %}
 @Manager\#9545 **findgirlfriend**
@@ -10,7 +10,7 @@
 Generates random American girl
 {% endhint %}
 
-### Chuck Norris
+## Chuck Norris
 
 {% hint style="success" %}
 @Manager\#9545 **chucknorris**
@@ -20,10 +20,10 @@ Generates random American girl
 Sends a Chuck Norris joke
 {% endhint %}
 
-### Weather
+## Weather
 
 {% hint style="success" %}
-@Manager\#9545 **weather \<\town\>**
+@Manager\#9545 **weather \&lt;\town&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -34,18 +34,17 @@ Sends weather forecast about a selected town
 @Manager#9545 weather Prague
 ```
 
-### Random Picture
+## Random Picture
 
 {% hint style="success" %}
-@Manager\#9545 **randomPicture \<\width\> \<\height\> \<\params\>**
+@Manager\#9545 **randomPicture \&lt;\width&gt; \&lt;\height&gt; \&lt;\params&gt;**
 {% endhint %}
 
 {% hint style="info" %}
-Bot sends a random picture. 
+Bot sends a random picture.
 {% endhint %}
 
 ```text
 @Manager#9545 400 300 params
 ```
-
 

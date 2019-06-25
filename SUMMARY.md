@@ -5,7 +5,7 @@
 ## Commands
 
 * [API](commands/api.md)
-* [Bot Moderation](commands/untitled-1.md)
+* [Bot Moderation](commands/bot-moderation.md)
 * [Cryptography](commands/cryptography.md)
 * [Custom Embeds](commands/custom-embeds.md)
 * [Economy](commands/economy.md)

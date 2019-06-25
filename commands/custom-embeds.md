@@ -1,6 +1,6 @@
 # Custom Embeds
 
-### Embed Welcome
+## Embed Welcome
 
 {% hint style="success" %}
 @Manager\#9545 **embedWelcome**
@@ -10,7 +10,7 @@
 Generates an embed for welcoming page
 {% endhint %}
 
-### Embed Rules
+## Embed Rules
 
 {% hint style="success" %}
 @Manager\#9545 **embedRules**
@@ -20,7 +20,7 @@ Generates an embed for welcoming page
 Generates an embed for rules
 {% endhint %}
 
-### Embed Music Bots
+## Embed Music Bots
 
 {% hint style="success" %}
 @Manager\#9545 **embedMusicBots**
@@ -30,7 +30,7 @@ Generates an embed for rules
 Generates an embed for music bots
 {% endhint %}
 
-### Embed Administration Bots
+## Embed Administration Bots
 
 {% hint style="success" %}
 @Manager\#9545 **embedAdministrationBots**
@@ -40,7 +40,7 @@ Generates an embed for music bots
 Generates an embed for administration bots
 {% endhint %}
 
-### Embed Game Roles
+## Embed Game Roles
 
 {% hint style="success" %}
 @Manager\#9545 **embedGameRoles**
@@ -49,3 +49,4 @@ Generates an embed for administration bots
 {% hint style="info" %}
 Generates an embed for gaming roles
 {% endhint %}
+

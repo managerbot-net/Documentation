@@ -1,8 +1,9 @@
 # User Moderation
 
-### Accept Rules
+## Accept Rules
+
 {% hint style="success" %}
-@Manager\#9545 **acceptRules \<\user\>**
+@Manager\#9545 **acceptRules \&lt;\user&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -13,7 +14,8 @@ User confirms server rules
 @Manager#9545 accept
 ```
 
-### Kick
+## Kick
+
 {% hint style="success" %}
 @Manager\#9545 **kick \[user\]**
 {% endhint %}
@@ -26,7 +28,8 @@ Kicks user out of server
 @Manager#9545 kick @SirSecurity#0959
 ```
 
-### Ban
+## Ban
+
 {% hint style="success" %}
 @Manager\#9545 **ban \[user\]**
 {% endhint %}
@@ -39,10 +42,10 @@ Bans user in a server.
 @Manager#9545 ban @SirSecurity#0959
 ```
 
-### Set Nick
+## Set Nick
+
 {% hint style="success" %}
-@Manager\#9545 **setnick \[nick\]**
-@Manager\#9545 **setnick \[user\] \[nick\]**
+@Manager\#9545 **setnick \[nick\]** @Manager\#9545 **setnick \[user\] \[nick\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -53,7 +56,8 @@ Set user's nickname
 @Manager#9545 setnick Quentin
 ```
 
-### Reset Profile
+## Reset Profile
+
 {% hint style="success" %}
 @Manager\#9545 **reset \[user\]**
 {% endhint %}
@@ -66,7 +70,8 @@ Resets user profile
 @Manager#9545 reset @SirSecurity#0959
 ```
 
-### Playtime Add
+## Playtime Add
+
 {% hint style="success" %}
 @Manager\#9545 **playtime add \[user\] \[hours\]**
 {% endhint %}
@@ -79,7 +84,8 @@ Adds user some playtime
 @Manager#9545 playtime add @SirSecurity#0959 15
 ```
 
-### Playtime Remove
+## Playtime Remove
+
 {% hint style="success" %}
 @Manager\#9545 **playtime remove \[user\] \[hours\]**
 {% endhint %}
@@ -92,9 +98,10 @@ Remove user some playtime
 @Manager#9545 playtime remove @SirSecurity#0959 15
 ```
 
-### Warning
+## Warning
+
 {% hint style="success" %}
-@Manager\#9545 **warning \[user\] \<\reason\>**
+@Manager\#9545 **warning \[user\] \&lt;\reason&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -105,9 +112,10 @@ Gives user a warning
 @Manager#9545 warning @SirSecurity#0959 Afking
 ```
 
-### Warning Show
+## Warning Show
+
 {% hint style="success" %}
-@Manager\#9545 **warning show \<\user\>**
+@Manager\#9545 **warning show \&lt;\user&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -118,7 +126,8 @@ Shows user's warnings
 @Manager#9545 warning show @SirSecurity#0959
 ```
 
-### Warning Clear
+## Warning Clear
+
 {% hint style="success" %}
 @Manager\#9545 **clear \[user\]**
 {% endhint %}
@@ -131,9 +140,10 @@ Clears all user warnings
 @Manager#9545 clear @SirSecurity#0959
 ```
 
-### Punish Add
+## Punish Add
+
 {% hint style="success" %}
-@Manager\#9545 **punish add \[user\] \<\minutes\> \<\reason\>**
+@Manager\#9545 **punish add \[user\] \&lt;\minutes&gt; \&lt;\reason&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -144,9 +154,10 @@ Prevents user from sending messages and speaking
 @Manager#9545 punish add @SirSecurity#0959 10 Microphone spamming.
 ```
 
-### Punish Remove
+## Punish Remove
+
 {% hint style="success" %}
-@Manager\#9545 **punish remove \[user\] \<\reason\>**
+@Manager\#9545 **punish remove \[user\] \&lt;\reason&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -154,10 +165,11 @@ Unpunishes the user
 {% endhint %}
 
 ```text
-@Manager#9545 punish remove @SirSecurity#0959 
+@Manager#9545 punish remove @SirSecurity#0959
 ```
 
-### Mute Voice
+## Mute Voice
+
 {% hint style="success" %}
 @Manager\#9545 **mute voice \[user\] \[minutes\]**
 {% endhint %}
@@ -167,10 +179,11 @@ Mutes user's microphone
 {% endhint %}
 
 ```text
-@Manager#9545 mute voice @SirSecurity#0959 
+@Manager#9545 mute voice @SirSecurity#0959
 ```
 
-### Mute Chat
+## Mute Chat
+
 {% hint style="success" %}
 @Manager\#9545 **mute chat \[user\] \[minutes\]**
 {% endhint %}
@@ -183,7 +196,8 @@ Mutes user's chat
 @Manager#9545 mute chat @SirSecurity#0959 5
 ```
 
-### UnMute Voice
+## UnMute Voice
+
 {% hint style="success" %}
 @Manager\#9545 **mute voice \[user\] \[minutes\]**
 {% endhint %}
@@ -193,10 +207,11 @@ UnMutes user's microphone
 {% endhint %}
 
 ```text
-@Manager#9545 unmute voice @SirSecurity#0959 
+@Manager#9545 unmute voice @SirSecurity#0959
 ```
 
-### UnMute Chat
+## UnMute Chat
+
 {% hint style="success" %}
 @Manager\#9545 **mute chat \[user\] \[minutes\]**
 {% endhint %}
@@ -209,7 +224,8 @@ UnMutes user's chat
 @Manager#9545 unmute chat @SirSecurity#0959 5
 ```
 
-### AFK Warn
+## AFK Warn
+
 {% hint style="success" %}
 @Manager\#9545 **afk warn \[user\]**
 {% endhint %}
@@ -219,10 +235,11 @@ Gives user an afk warning
 {% endhint %}
 
 ```text
-@Manager#9545 afk warn @SirSecurity#0959 
+@Manager#9545 afk warn @SirSecurity#0959
 ```
 
-### AFK No
+## AFK No
+
 {% hint style="success" %}
 @Manager\#9545 **afk no**
 {% endhint %}
@@ -231,7 +248,8 @@ Gives user an afk warning
 Gives user an afk warning
 {% endhint %}
 
-### AFK Remove
+## AFK Remove
+
 {% hint style="success" %}
 @Manager\#9545 **afk remove \[user\]**
 {% endhint %}
@@ -241,12 +259,13 @@ Removes user all afk warnings
 {% endhint %}
 
 ```text
-@Manager#9545 afk remove @SirSecurity#0959 
+@Manager#9545 afk remove @SirSecurity#0959
 ```
 
-### AFK Show
+## AFK Show
+
 {% hint style="success" %}
-@Manager\#9545 **afk show \<\user\>**
+@Manager\#9545 **afk show \&lt;\user&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -256,3 +275,4 @@ Show user's all afk warnings
 ```text
 @Manager#9545 afk show @SirSecurity#0959
 ```
+

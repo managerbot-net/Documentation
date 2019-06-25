@@ -1,6 +1,7 @@
 # Guild Moderation
 
-### Set Language
+## Set Language
+
 {% hint style="success" %}
 @Manager\#9545 **setlang \[languageShortcut\]**
 {% endhint %}
@@ -13,7 +14,8 @@ Sets bot communicating language in the guild
 @Manager#9545 setlang ENG
 ```
 
-### Prefix
+## Prefix
+
 {% hint style="success" %}
 @Manager\#9545 **prefix \[prefix\]**
 {% endhint %}
@@ -26,7 +28,8 @@ Sets bot prefix in the guild
 @Manager#9545 prefix /
 ```
 
-### Purge
+## Purge
+
 {% hint style="success" %}
 @Manager\#9545 **purge \[messageCount\]**
 {% endhint %}
@@ -39,9 +42,10 @@ Purges specified amount of messages in the text channe
 @Manager#9545 purge 1000
 ```
 
-### Purge Auto
+## Purge Auto
+
 {% hint style="success" %}
-@Manager\#9545 ***purge auto \<\arg\> \<\channel\> \<\hours\>**
+@Manager\#9545 **\*purge auto \&lt;\arg&gt; \&lt;\channel&gt; \&lt;\hours&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -52,9 +56,10 @@ Automatically purges selected text channel every period of time
 @Manager#9545 purge auto add #channel 4
 ```
 
-### Boost Playtime
+## Boost Playtime
+
 {% hint style="success" %}
-@Manager\#9545 **playtime \<\value\>**
+@Manager\#9545 **playtime \&lt;\value&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -65,7 +70,8 @@ Sets playtime booster
 @Manager#9545 boost playtime 1.5
 ```
 
-### Audit Set
+## Audit Set
+
 {% hint style="success" %}
 @Manager\#9545 **audit set \[channel\]**
 {% endhint %}
@@ -78,7 +84,8 @@ Sets channel for an audit log
 @Manager#9545 audit set #channel
 ```
 
-### Audit Remove
+## Audit Remove
+
 {% hint style="success" %}
 @Manager\#9545 **audit remove \[channel\]**
 {% endhint %}
@@ -91,7 +98,8 @@ Changes channel of the audit log
 @Manager#9545 audit remove #channel
 ```
 
-### Audit Move
+## Audit Move
+
 {% hint style="success" %}
 @Manager\#9545 **audit move \[channel\]**
 {% endhint %}
@@ -104,7 +112,8 @@ Changes channel of the audit log
 @Manager#9545 audit move LogType
 ```
 
-### Audit Modify
+## Audit Modify
+
 {% hint style="success" %}
 @Manager\#9545 **audit modify \[logType\]**
 {% endhint %}
@@ -117,7 +126,8 @@ Modify logs
 @Manager#9545 audit modify Administrator
 ```
 
-### Audit Value
+## Audit Value
+
 {% hint style="success" %}
 @Manager\#9545 **audit value \[logType\]**
 {% endhint %}
@@ -130,7 +140,8 @@ Gives you the true/false value of the state
 @Manager#9545 audit value Administrator
 ```
 
-### Audit Values
+## Audit Values
+
 {% hint style="success" %}
 @Manager\#9545 **audit values**
 {% endhint %}
@@ -139,7 +150,8 @@ Gives you the true/false value of the state
 Gives you all the values of Log states
 {% endhint %}
 
-### Communication Channel Add
+## Communication Channel Add
+
 {% hint style="success" %}
 @Manager\#9545 **communicationChannel add \[channel\]**
 {% endhint %}
@@ -152,7 +164,8 @@ Sets channel as bot communication channel
 @Manager#9545 communicationChannel add #channel
 ```
 
-### Communication Channel Remove
+## Communication Channel Remove
+
 {% hint style="success" %}
 @Manager\#9545 **communicationChannel remove \[channel\]**
 {% endhint %}
@@ -165,7 +178,8 @@ Removes channel from bot communication channels
 @Manager#9545 communicationChannel remove #channel
 ```
 
-### Communication Channel Show
+## Communication Channel Show
+
 {% hint style="success" %}
 @Manager\#9545 **communicationChannel show**
 {% endhint %}
@@ -174,7 +188,8 @@ Removes channel from bot communication channels
 Shows bot communication channels
 {% endhint %}
 
-### Communication Channel Main
+## Communication Channel Main
+
 {% hint style="success" %}
 @Manager\#9545 **communicationChannel main \[channel\]**
 {% endhint %}
@@ -187,7 +202,8 @@ Sets channel as a main bot communication channel
 @Manager#9545 communicationChannel main #channel
 ```
 
-### Default Messages Add Welcome
+## Default Messages Add Welcome
+
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages add welcome \[message\]**
 {% endhint %}
@@ -200,7 +216,8 @@ Adds a welcome message for newly joined users
 @Manager#9545 defaultMessages add welcome "Hello!"
 ```
 
-### Default Messages Add Leave
+## Default Messages Add Leave
+
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages add leave \[message\]**
 {% endhint %}
@@ -213,7 +230,8 @@ Adds a leave message for newly joined users
 @Manager#9545 defaultMessages add welcome "Bye!"
 ```
 
-### Default Messages Remove Welcome
+## Default Messages Remove Welcome
+
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages remove welcome**
 {% endhint %}
@@ -226,7 +244,8 @@ Removes a welcome message for newly joined users
 @Manager#9545 defaultMessages remove welcome
 ```
 
-### Default Messages Remove Leave
+## Default Messages Remove Leave
+
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages remove leave**
 {% endhint %}
@@ -239,7 +258,8 @@ Removes a leave message for newly joined users
 @Manager#9545 defaultMessages add welcome
 ```
 
-### Game Sales Notifications Channel Add
+## Game Sales Notifications Channel Add
+
 {% hint style="success" %}
 @Manager\#9545 **gamesales channel add \[channel\]**
 {% endhint %}
@@ -252,7 +272,8 @@ Adds a channel to post game sales notifications
 @Manager#9545 gamesales channel add #channel
 ```
 
-### Game Sales Notifications Channel Remove
+## Game Sales Notifications Channel Remove
+
 {% hint style="success" %}
 @Manager\#9545 **gamesales channel remove**
 {% endhint %}
@@ -261,7 +282,8 @@ Adds a channel to post game sales notifications
 Removes the channel from game sales notifications channel list
 {% endhint %}
 
-### Game Sales Notifications Role Add
+## Game Sales Notifications Role Add
+
 {% hint style="success" %}
 @Manager\#9545 **gamesales role add \[role\]**
 {% endhint %}
@@ -274,7 +296,8 @@ Adds a role to sending notifications
 @Manager#9545 gamesales role add @Role
 ```
 
-### Game Sales Notifications Role Remove
+## Game Sales Notifications Role Remove
+
 {% hint style="success" %}
 @Manager\#9545 **gamesales role remove**
 {% endhint %}
@@ -282,3 +305,4 @@ Adds a role to sending notifications
 {% hint style="info" %}
 Removes the role from game sales notification roles.
 {% endhint %}
+

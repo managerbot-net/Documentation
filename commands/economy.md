@@ -1,6 +1,6 @@
 # Economy
 
-### Shop
+## Shop
 
 {% hint style="success" %}
 @Manager\#9545 **shop**
@@ -14,7 +14,7 @@ Shows a range of products shop offers.
 @Manager#9545 shop
 ```
 
-### Buy
+## Buy
 
 {% hint style="success" %}
 @Manager\#9545 **buy**
@@ -28,7 +28,7 @@ You can buy an item from shop.
 @Manager#9545 buy
 ```
 
-### Money Show
+## Money Show
 
 {% hint style="success" %}
 @Manager\#9545 **money show \[user\]**
@@ -42,7 +42,7 @@ Shows how much money user has
 @Manager#9545 money show @SirSecurity#0959
 ```
 
-### Money Add
+## Money Add
 
 {% hint style="success" %}
 @Manager\#9545 **money add \[target\] \[amount\]**
@@ -56,10 +56,10 @@ Adds player some amount of money.
 @Manager#9545 money add @SirSecurity#0959 10
 ```
 
-### Money Remove
+## Money Remove
 
 {% hint style="success" %}
-@Manager\#9545 **money remove \[target\] \<\amount\>**
+@Manager\#9545 **money remove \[target\] \&lt;\amount&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -70,10 +70,10 @@ Removes player's amount of money.
 @Manager#9545 remove @SirSecurity#0959 10
 ```
 
-### Money Top
+## Money Top
 
 {% hint style="success" %}
-@Manager\#9545 **money top \<\count\>**
+@Manager\#9545 **money top \&lt;\count&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -83,3 +83,4 @@ Shows the richest users on the server.
 ```text
 @Manager#9545 money top 10
 ```
+

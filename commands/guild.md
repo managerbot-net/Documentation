@@ -1,6 +1,6 @@
 # Guild
 
-### Invite
+## Invite
 
 {% hint style="success" %}
 @Manager\#9545 **invite**
@@ -10,7 +10,7 @@
 Sends a server invitation link
 {% endhint %}
 
-### Member Count
+## Member Count
 
 {% hint style="success" %}
 @Manager\#9545 **membercount**
@@ -20,7 +20,7 @@ Sends a server invitation link
 Shows number of members in current guild
 {% endhint %}
 
-### Server Info
+## Server Info
 
 {% hint style="success" %}
 @Manager\#9545 **serverinfo**
@@ -30,10 +30,10 @@ Shows number of members in current guild
 Shows server info
 {% endhint %}
 
-### Top Users
+## Top Users
 
 {% hint style="success" %}
-@Manager\#9545 **topusers <role>**
+@Manager\#9545 **topusers &lt;count&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -43,3 +43,4 @@ Shows the best playtime users in a guild.
 ```text
 @Manager#9545 topusers 10
 ```
+

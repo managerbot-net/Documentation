@@ -1,6 +1,6 @@
 # Help
 
-### Help
+## Help
 
 {% hint style="success" %}
 @Manager\#9545 **help \[command\]**
@@ -14,7 +14,7 @@ Shows help.
 @Manager#9545 help help
 ```
 
-### Helper
+## Helper
 
 {% hint style="success" %}
 @Manager\#9545 **helper \[role\]**
@@ -27,3 +27,4 @@ Shows a help for specific moderation ranks.
 ```text
 @Manager#9545 helper @Staff
 ```
+
