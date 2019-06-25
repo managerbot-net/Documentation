@@ -45,6 +45,6 @@ Bot sends a random picture.
 {% endhint %}
 
 ```text
-@Manager#9545 400 300 params
+@Manager#9545 randomPicture 400 300 params
 ```
 

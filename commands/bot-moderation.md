@@ -1,21 +1,91 @@
 # Bot Moderation
 
-## Bot Moderation
+## Bot Joined Message
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| botJoinedMessage | botJoinedMessage &lt;textChannel&gt; | - | Sends a welcome message. | - |
-| ping | ping | - | Shows bot's Latency. | - |
-| shutdown | shutdown | - | Shut downs the bot. | - |
-| maintenance | maintenance &lt;scope&gt; &lt;status&gt; | - | Sets maintenance status | - |
+{% hint style="success" %}
+@Manager\#9545 **botJoinedMessage &lt;textChannel&gt;**
+{% endhint %}
 
+{% hint style="info" %}
+ Sends a welcome message
+{% endhint %}
 
+```text
+@Manager#9545 botJoinedMessage  #channel
+```
 
-#### Reports
+### Ping
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add &lt;description&gt; | - | Adds a report to a bug or an user. | - |
-| close | close &lt;reportId&gt; &lt;isValid&gt; &lt;response&gt; | - | Closes the report. | - |
-| claim | claim &lt;reportId&gt; &lt;amount&gt; | - | Gives an user a reward for a reporting. | - |
+{% hint style="success" %}
+@Manager\#9545 **ping**
+{% endhint %}
 
+{% hint style="info" %}
+Shows bot's Latency
+{% endhint %}
+
+### Shutdown
+
+{% hint style="success" %}
+@Manager\#9545 **shutdown**
+{% endhint %}
+
+{% hint style="info" %}
+Shut downs the bot
+{% endhint %}
+
+### Maintenance
+
+{% hint style="success" %}
+@Manager\#9545 **maintenance &lt;scope&gt; &lt;status&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Sets maintenance status
+{% endhint %}
+
+```text
+@Manager#9545 maintenance global enabled
+```
+
+### Report Add
+
+{% hint style="success" %}
+@Manager\#9545 **report add &lt;description&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a report to a bug or an user
+{% endhint %}
+
+```text
+@Manager#9545 report add Bot is not working.
+```
+
+### Report Close
+
+{% hint style="success" %}
+@Manager\#9545 **report close &lt;reportId&gt; &lt;isValid&gt; &lt;response&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Closes the report
+{% endhint %}
+
+```text
+@Manager#9545 report close 1 true Bug found
+```
+
+### Report Claim
+
+{% hint style="success" %}
+@Manager\#9545 **report claim &lt;reportId&gt; &lt;amount&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Gives an user a reward for a reporting
+{% endhint %}
+
+```text
+@Manager#9545 report claim 1 15
+```
