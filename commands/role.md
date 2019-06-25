@@ -1,26 +1,169 @@
 # Role
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| roleinfo | roleinfo \[role\] | - | Shows permissions for specified role | - |
-| roleDifference | roleDifference \[role1\] \[role2\] | - | Shows two different roles permissions. | - |
+### Role Info
+
+{% hint style="success" %}
+@Manager\#9545 **roleinfo \[role\]**
+{% endhint %}
+
+{% hint style="info" %}
+Shows permissions for specified role
+{% endhint %}
+
+```text
+@Manager#9545 roleinfo @Guest
+```
+
+
+
+### Role Difference
+
+{% hint style="success" %}
+@Manager\#9545 **roledifference \[role1\] \[role2\]**
+{% endhint %}
+
+{% hint style="info" %}
+Shows two different roles permissions
+{% endhint %}
+
+```text
+@Manager#9545 roledifference @Guest @Regular
+```
+
+
 
 ### **Role**
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| role | role \[role\] | - | Assigns you the self-assignable role. | - |
-| role | role \[user\] \[role\] | - | Assigns you the self-assignable role. | - |
-| show | show | - | Shows all the self-assignable roles. | - |
+{% hint style="success" %}
+@Manager\#9545 **role \[role\]**  
+@Manager\#9545 **role \[user\] \[role\]**
+{% endhint %}
 
-### **Manage**
+{% hint style="info" %}
+Assigns the self-assignable role
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add \[role\] \[emote\] | - | Adds a self assignable role | - |
-| remove | remove | - | Removes a self assignable role | - |
+```text
+@Manager#9545 role @GTA
+```
 
-### **Moderation Rank**
+
+
+### Role Show
+
+{% hint style="success" %}
+@Manager\#9545 **role show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows all the self-assignable roles
+{% endhint %}
+
+
+
+### **Role Add**
+
+{% hint style="success" %}
+@Manager\#9545 **role add \[role\] \[emote\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a self assignable role
+{% endhint %}
+
+```text
+@Manager#9545 role manage add @GTA
+```
+
+
+
+### **Role Remove**
+
+{% hint style="success" %}
+@Manager\#9545 **role remove \[role\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes a self assignable role
+{% endhint %}
+
+
+
+### **Moderation Rank Add**
+
+{% hint style="success" %}
+@Manager\#9545 **moderationRank add \[role\] \[position\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a role to moderation rank
+{% endhint %}
+
+```text
+@Manager#9545 moderationRank add @Guest 1
+```
+
+
+
+### **Moderation Rank Remove**
+
+{% hint style="success" %}
+@Manager\#9545 **moderationRank remove \[role\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes a role from moderation rank
+{% endhint %}
+
+```text
+@Manager#9545 moderationRank remove Staff
+```
+
+
+
+### **Moderation Rank Show**
+
+{% hint style="success" %}
+@Manager\#9545 **moderationRank show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows all moderation roles in a guild
+{% endhint %}
+
+
+
+### Moderation Add Name
+
+{% hint style="success" %}
+@Manager\#9545 **moderationRank addName \[position\] \[name\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a name of rank in moderation roles
+{% endhint %}
+
+```text
+@Manager#9545 moderationRank addName 3 Staff-Category
+```
+
+
+
+### Moderation Add Name
+
+{% hint style="success" %}
+@Manager\#9545 **moderationRank remName \[position\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes a role from moderation rank
+{% endhint %}
+
+```text
+@Manager#9545 moderationRank remName 3
+```
+
+
 
 | Command name | Syntax | Aliases | Description | Video |
 | :--- | :--- | :--- | :--- | :--- |

@@ -15,5 +15,4 @@
 * [Help](commands/help.md)
 * [Role](commands/role.md)
 * [User Moderation](commands/user-moderation.md)
-* [Utility](commands/utility.md)
 
