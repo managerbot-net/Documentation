@@ -2,33 +2,33 @@
 
 ## Encrypt
 
-### Ceasar
+### Caesar
 
 {% hint style="success" %}
-@Manager\#9545 **encrypt ceasar \[plain-text\]**
+@Manager\#9545 **encrypt caesar \[plain-text\]**
 {% endhint %}
 
 {% hint style="info" %}
-Ceasar's cipher encryption.
+Caesar's cipher encryption.
 {% endhint %}
 
 ```text
-@Manager#9545 ceasar ABC
+@Manager#9545 caesar ABC
 ```
 
 ## Decrypt
 
-### Ceasar
+### Caesar
 
 {% hint style="success" %}
-@Manager\#9545 **decrypt ceasar \[encrypted-text\]**
+@Manager\#9545 **decrypt caesar \[encrypted-text\]**
 {% endhint %}
 
 {% hint style="info" %}
-Ceasar's cipher decryption.
+Caesar's cipher decryption.
 {% endhint %}
 
 ```text
-@Manager#9545 decrypt ceasar DEF
+@Manager#9545 decrypt caesar DEF
 ```
 

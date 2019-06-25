@@ -45,7 +45,7 @@ Rolls a die.
 ## Random Number
 
 {% hint style="success" %}
-@Manager\#9545 **randomNumber \&lt;\min&gt; \&lt;\max&gt;**
+@Manager\#9545 **randomNumber &lt;min&gt; &lt;max&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -93,7 +93,9 @@ Solves simple mathematical equations.
 ## Color
 
 {% hint style="success" %}
-@Manager\#9545 **color** @Manager\#9545 **color \[hexadecimal\]** @Manager\#9545 **color \[red\] \[green\] \[blue\]**
+@Manager\#9545 **color**  
+@Manager\#9545**color \[hexadecimal\]**  
+@Manager\#9545 **color \[red\] \[green\] \[blue\]**
 {% endhint %}
 
 {% hint style="info" %}

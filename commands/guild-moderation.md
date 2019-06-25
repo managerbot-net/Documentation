@@ -35,7 +35,7 @@ Sets bot prefix in the guild
 {% endhint %}
 
 {% hint style="info" %}
-Purges specified amount of messages in the text channe
+Purges specified amount of messages in the text channel
 {% endhint %}
 
 ```text
@@ -45,7 +45,7 @@ Purges specified amount of messages in the text channe
 ## Purge Auto
 
 {% hint style="success" %}
-@Manager\#9545 **\*purge auto \&lt;\arg&gt; \&lt;\channel&gt; \&lt;\hours&gt;**
+@Manager\#9545 **\*purge auto &lt;arg&gt; &lt;channel&gt; &lt;hours&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,7 +59,7 @@ Automatically purges selected text channel every period of time
 ## Boost Playtime
 
 {% hint style="success" %}
-@Manager\#9545 **playtime \&lt;\value&gt;**
+@Manager\#9545 **playtime &lt;value&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -227,7 +227,7 @@ Adds a leave message for newly joined users
 {% endhint %}
 
 ```text
-@Manager#9545 defaultMessages add welcome "Bye!"
+@Manager#9545 defaultMessages add leave "Bye!"
 ```
 
 ## Default Messages Remove Welcome
@@ -255,7 +255,7 @@ Removes a leave message for newly joined users
 {% endhint %}
 
 ```text
-@Manager#9545 defaultMessages add welcome
+@Manager#9545 defaultMessages remove leave
 ```
 
 ## Game Sales Notifications Channel Add
