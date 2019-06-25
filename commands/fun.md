@@ -1,10 +1,5 @@
 # Fun
 
-| math | math | math \[content\] | Solves simple mathematical equations. | - |
-| color | color | - | Generates random color or show you the color. | - |
-| color | color \[hexadecimal\] | - | Generates a color from hexadecimal. | - |
-| color | color \[red\] \[green\] \[blue\] | - | Generates a color from RGB. | - |
-
 ### Echo
 
 {% hint style="success" %}
