@@ -23,7 +23,7 @@ Sends a Chuck Norris joke
 ## Weather
 
 {% hint style="success" %}
-@Manager\#9545 **weather \&lt;\town&gt;**
+@Manager\#9545 **weather &lt;town&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -37,7 +37,7 @@ Sends weather forecast about a selected town
 ## Random Picture
 
 {% hint style="success" %}
-@Manager\#9545 **randomPicture \&lt;\width&gt; \&lt;\height&gt; \&lt;\params&gt;**
+@Manager\#9545 **randomPicture &lt;width&gt; &lt;height&gt; &lt;params&gt;**
 {% endhint %}
 
 {% hint style="info" %}
