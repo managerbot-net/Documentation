@@ -1,7 +1,29 @@
 # Help
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| help | help &lt;command&gt; | assist | Shows help. | - |
-| helper | helper &lt;role&gt; | - | Shows a help for specific moderation ranks. | - |
+### Help
 
+{% hint style="success" %}
+@Manager\#9545 **help \[command\]**
+{% endhint %}
+
+{% hint style="info" %}
+Shows help.
+{% endhint %}
+
+```text
+@Manager#9545 help help
+```
+
+### Helper
+
+{% hint style="success" %}
+@Manager\#9545 **helper \[role\]**
+{% endhint %}
+
+{% hint style="info" %}
+Shows a help for specific moderation ranks.
+{% endhint %}
+
+```text
+@Manager#9545 helper @Staff
+```
