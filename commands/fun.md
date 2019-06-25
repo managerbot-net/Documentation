@@ -1,17 +1,114 @@
 # Fun
 
-
-
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| echo | echo \[message\] | - | Says something. | - |
-| pick | pick \[message\] | - | Randomly picks one of options. | - |
-| rollDie | rollDie \[number\] | rd | Rolls a die. | - |
-| randomNumber | randomNumber &lt;number1&gt; &lt;number2&gt; | rnd | Generates a random number from the specified interval. | - |
-| rockScissorsPaper | rockScissorsPaper | rsp | Rock Scissors Paper Game | - |
-| flipCoin | flipCoin | fc | Flip a coin game. | - |
 | math | math | math \[content\] | Solves simple mathematical equations. | - |
 | color | color | - | Generates random color or show you the color. | - |
 | color | color \[hexadecimal\] | - | Generates a color from hexadecimal. | - |
 | color | color \[red\] \[green\] \[blue\] | - | Generates a color from RGB. | - |
 
+### Echo
+
+{% hint style="success" %}
+@Manager\#9545 **echo \[message\]**
+{% endhint %}
+
+{% hint style="info" %}
+Says something.
+{% endhint %}
+
+```text
+@Manager#9545 echo Hello!
+```
+
+### Pick
+
+{% hint style="success" %}
+@Manager\#9545 **pick \[message\]**
+{% endhint %}
+
+{% hint style="info" %}
+Randomly picks one of options.
+{% endhint %}
+
+```text
+@Manager#9545 pick 1|2|3
+```
+
+### Roll Die
+
+{% hint style="success" %}
+@Manager\#9545 **rollDie \[number\]**
+{% endhint %}
+
+{% hint style="info" %}
+Rolls a die.
+{% endhint %}
+
+```text
+@Manager#9545 rollDie 3
+```
+
+### Random Number
+
+{% hint style="success" %}
+@Manager\#9545 **randomNumber \<min> \<max>**
+{% endhint %}
+
+{% hint style="info" %}
+Rock Scissors Paper Game
+{% endhint %}
+
+```text
+@Manager#9545 randomNumber1 100
+```
+
+### Rock Scissors Paper
+
+{% hint style="success" %}
+@Manager\#9545 **rockScissorsPaper**
+{% endhint %}
+
+{% hint style="info" %}
+Rock Scissors Paper Game
+{% endhint %}
+
+### Flip A Coin
+
+{% hint style="success" %}
+@Manager\#9545 **flipCoin**
+{% endhint %}
+
+{% hint style="info" %}
+Flip a coin game
+{% endhint %}
+
+### Math
+
+{% hint style="success" %}
+@Manager\#9545 **math \[content\]**
+{% endhint %}
+
+{% hint style="info" %}
+Solves simple mathematical equations.
+{% endhint %}
+
+```text
+@Manager#9545 math 5 + 5
+```
+
+### Color
+
+{% hint style="success" %}
+@Manager\#9545 **color**
+@Manager\#9545 **color \[hexadecimal\]**
+@Manager\#9545 **color \[red\] \[green\] \[blue\]**
+{% endhint %}
+
+{% hint style="info" %}
+Generates random color or show you the color.
+{% endhint %}
+
+```text
+@Manager#9545 color
+@Manager#9545 color #00ffff
+@Manager#9545 0 255 255
+```
