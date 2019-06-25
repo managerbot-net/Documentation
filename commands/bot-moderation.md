@@ -7,11 +7,11 @@
 {% endhint %}
 
 {% hint style="info" %}
- Sends a welcome message
+Sends a welcome message
 {% endhint %}
 
 ```text
-@Manager#9545 botJoinedMessage  #channel
+@Manager#9545 botJoinedMessage #channel
 ```
 
 ### Ping
@@ -89,3 +89,4 @@ Gives an user a reward for a reporting
 ```text
 @Manager#9545 report claim 1 15
 ```
+
