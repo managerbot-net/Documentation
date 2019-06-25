@@ -20,7 +20,7 @@ Generates random American girl
 Sends a Chuck Norris joke
 {% endhint %}
 
-![](../.gitbook/assets/a.PNG)
+![](../.gitbook/assets/a%20%281%29.PNG)
 
 ![](../.gitbook/assets/aa.PNG)
 
