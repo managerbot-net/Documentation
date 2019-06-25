@@ -1,9 +1,45 @@
 # Guild
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| invite | invite | - | Sends a server invitation link | - |
-| membercount | membercount | mc | Shows number of members in current guild | - |
-| serverinfo | serverinfo | - | Shows server info | - |
-| topusers | topusers &lt;count&gt; | - | Shows the best playtime users in a guild. | - |
+### Invite
 
+{% hint style="success" %}
+@Manager\#9545 **invite**
+{% endhint %}
+
+{% hint style="info" %}
+Sends a server invitation link
+{% endhint %}
+
+### Member Count
+
+{% hint style="success" %}
+@Manager\#9545 **membercount**
+{% endhint %}
+
+{% hint style="info" %}
+Shows number of members in current guild
+{% endhint %}
+
+### Server Info
+
+{% hint style="success" %}
+@Manager\#9545 **serverinfo**
+{% endhint %}
+
+{% hint style="info" %}
+Shows server info
+{% endhint %}
+
+### Top Users
+
+{% hint style="success" %}
+@Manager\#9545 **topusers \<role>**
+{% endhint %}
+
+{% hint style="info" %}
+Shows the best playtime users in a guild.
+{% endhint %}
+
+```text
+@Manager#9545 topusers 10
+```
