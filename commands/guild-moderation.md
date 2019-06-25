@@ -1,72 +1,284 @@
 # Guild Moderation
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| setlang | setlang | setlang \[languageShortcut\] | Sets bot communicating language in the guild. | - |
-| prefix | prefix \[prefix\] | - | Sets bot prefix in the guild. | - |
+### Set Language
+{% hint style="success" %}
+@Manager\#9545 **setlang \[languageShortcut\]**
+{% endhint %}
 
-### **Purge**
+{% hint style="info" %}
+Sets bot communicating language in the guild
+{% endhint %}
 
-| \# | Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1. | purge | purge \[messageCount\] | - | Purges specified amount of messages in the text channel | - |
-| 2. | auto | auto &lt;arg&gt; &lt;channel&gt; &lt;hours&gt; | - | Automatically purges selected text channel every period of time. | - |
+```text
+@Manager#9545 setlang ENG
+```
 
-### **Boost**
+### Prefix
+{% hint style="success" %}
+@Manager\#9545 **prefix \[prefix\]**
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| playtime | playtime &lt;value&gt; | - | Sets playtime booster. | - |
+{% hint style="info" %}
+Sets bot prefix in the guild
+{% endhint %}
 
-### **Audit**
+```text
+@Manager#9545 prefix /
+```
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| set | set \[channel\] | - | Sets channel for an audit log. | - |
-| remove | remove | - | Removes audit log. | - |
-| move | move \[channel\] | - | Changes channel of the audit log. | - |
-| modify | modify \[logType\] | - | Modify logs. | - |
-| value | value \[logType\] | - | Gives you the true/false value of the state. | - |
-| values | values | - | Gives you all the values of Log states. | - |
+### Purge
+{% hint style="success" %}
+@Manager\#9545 **purge \[messageCount\]**
+{% endhint %}
 
-**Communication Channel**
+{% hint style="info" %}
+Purges specified amount of messages in the text channe
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add \[channel\] | - | Sets channel as bot communication channel. | - |
-| remove | remove \[channel\] | - | Removes channel from bot communication channels. | - |
-| show | show | - | Shows bot communication channels. | - |
-| main | main \[channel\] | - | Sets channel as a main bot communication channel. | - |
+```text
+@Manager#9545 purge 1000
+```
 
-### **Default Messages**
+### Purge Auto
+{% hint style="success" %}
+@Manager\#9545 ***purge auto \<arg> \<channel> \<hours>**
+{% endhint %}
 
-#### **Add**
+{% hint style="info" %}
+Automatically purges selected text channel every period of time
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| welcome | welcome \[message\] | - | Adds a welcome message for newly joined users. | - |
-| leave | leave \[message\] | - | "Adds a leave message for newly joined users. | - |
+```text
+@Manager#9545 purge auto add #channel 4
+```
 
-#### **Remove**
+### Boost Playtime
+{% hint style="success" %}
+@Manager\#9545 **playtime \<value>**
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| welcome | welcome \[message\] | - | Removes a welcome message for newly joined users. | - |
-| leave | leave | - | Removes a leave message for newly joined users. | - |
+{% hint style="info" %}
+Sets playtime booster
+{% endhint %}
 
-### **Game Sales Notifications**
+```text
+@Manager#9545 boost playtime 1.5
+```
 
-#### **Channel**
+### Audit Set
+{% hint style="success" %}
+@Manager\#9545 **audit set \[channel\]**
+{% endhint %}
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add \[channel\] | a | Adds a channel to post game sales notifications. | - |
-| remove | remove | r | Removes the channel from game sales notifications channel list. | - |
+{% hint style="info" %}
+Sets channel for an audit log
+{% endhint %}
 
-#### **Role**
+```text
+@Manager#9545 audit set #channel
+```
 
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add \[role\] | a | Adds a channel to post game sales notifications. | - |
-| remove | remove | r | Removes the channel from game sales notifications channel list. | - |
+### Audit Remove
+{% hint style="success" %}
+@Manager\#9545 **audit remove \[channel\]**
+{% endhint %}
 
+{% hint style="info" %}
+Changes channel of the audit log
+{% endhint %}
+
+```text
+@Manager#9545 audit remove #channel
+```
+
+### Audit Move
+{% hint style="success" %}
+@Manager\#9545 **audit move \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+
+{% endhint %}
+
+```text
+@Manager#9545 audit move LogType
+```
+
+### Audit Modify
+{% hint style="success" %}
+@Manager\#9545 **audit modify \[logType\]**
+{% endhint %}
+
+{% hint style="info" %}
+Modify logs
+{% endhint %}
+
+```text
+@Manager#9545 audit modify Administrator
+```
+
+### Audit Value
+{% hint style="success" %}
+@Manager\#9545 **audit value \[logType\]**
+{% endhint %}
+
+{% hint style="info" %}
+Gives you the true/false value of the state
+{% endhint %}
+
+```text
+@Manager#9545 audit value Administrator
+```
+
+### Audit Values
+{% hint style="success" %}
+@Manager\#9545 **audit values**
+{% endhint %}
+
+{% hint style="info" %}
+Gives you all the values of Log states
+{% endhint %}
+
+### Communication Channel Add
+{% hint style="success" %}
+@Manager\#9545 **communicationChannel add \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets channel as bot communication channel
+{% endhint %}
+
+```text
+@Manager#9545 communicationChannel add #channel
+```
+
+### Communication Channel Remove
+{% hint style="success" %}
+@Manager\#9545 **communicationChannel remove \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes channel from bot communication channels
+{% endhint %}
+
+```text
+@Manager#9545 communicationChannel remove #channel
+```
+
+### Communication Channel Show
+{% hint style="success" %}
+@Manager\#9545 **communicationChannel show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows bot communication channels
+{% endhint %}
+
+### Communication Channel Main
+{% hint style="success" %}
+@Manager\#9545 **communicationChannel main \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets channel as a main bot communication channel
+{% endhint %}
+
+```text
+@Manager#9545 communicationChannel main #channel
+```
+
+### Default Messages Add Welcome
+{% hint style="success" %}
+@Manager\#9545 **defaultMessages add welcome \[message\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a welcome message for newly joined users
+{% endhint %}
+
+```text
+@Manager#9545 defaultMessages add welcome "Hello!"
+```
+
+### Default Messages Add Leave
+{% hint style="success" %}
+@Manager\#9545 **defaultMessages add leave \[message\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a leave message for newly joined users
+{% endhint %}
+
+```text
+@Manager#9545 defaultMessages add welcome "Bye!"
+```
+
+### Default Messages Remove Welcome
+{% hint style="success" %}
+@Manager\#9545 **defaultMessages remove welcome**
+{% endhint %}
+
+{% hint style="info" %}
+Removes a welcome message for newly joined users
+{% endhint %}
+
+```text
+@Manager#9545 defaultMessages remove welcome
+```
+
+### Default Messages Remove Leave
+{% hint style="success" %}
+@Manager\#9545 **defaultMessages remove leave**
+{% endhint %}
+
+{% hint style="info" %}
+Removes a leave message for newly joined users
+{% endhint %}
+
+```text
+@Manager#9545 defaultMessages add welcome
+```
+
+### Game Sales Notifications Channel Add
+{% hint style="success" %}
+@Manager\#9545 **gamesales channel add \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a channel to post game sales notifications
+{% endhint %}
+
+```text
+@Manager#9545 gamesales channel add #channel
+```
+
+### Game Sales Notifications Channel Remove
+{% hint style="success" %}
+@Manager\#9545 **gamesales channel remove**
+{% endhint %}
+
+{% hint style="info" %}
+Removes the channel from game sales notifications channel list
+{% endhint %}
+
+### Game Sales Notifications Role Add
+{% hint style="success" %}
+@Manager\#9545 **gamesales role add \[role\]**
+{% endhint %}
+
+{% hint style="info" %}
+Adds a role to sending notifications
+{% endhint %}
+
+```text
+@Manager#9545 gamesales role add @Role
+```
+
+### Game Sales Notifications Role Remove
+{% hint style="success" %}
+@Manager\#9545 **gamesales role remove**
+{% endhint %}
+
+{% hint style="info" %}
+Removes the role from game sales notification roles.
+{% endhint %}
