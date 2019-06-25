@@ -72,7 +72,7 @@ Adds a self assignable role
 {% endhint %}
 
 ```text
-@Manager#9545 role manage add @GTA
+@Manager#9545 role add @GTA
 ```
 
 
@@ -87,6 +87,9 @@ Adds a self assignable role
 Removes a self assignable role
 {% endhint %}
 
+```text
+@Manager#9545 roler remove @GTA
+```
 
 
 ### **Moderation Rank Add**
