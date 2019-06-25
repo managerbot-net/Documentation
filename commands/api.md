@@ -20,6 +20,10 @@ Generates random American girl
 Sends a Chuck Norris joke
 {% endhint %}
 
+![](../.gitbook/assets/a.PNG)
+
+![](../.gitbook/assets/aa.PNG)
+
 ## Weather
 
 {% hint style="success" %}
