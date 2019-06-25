@@ -2,7 +2,7 @@
 
 ### Accept Rules
 {% hint style="success" %}
-@Manager\#9545 **acceptRules \<user>**
+@Manager\#9545 **acceptRules \<\user\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -94,7 +94,7 @@ Remove user some playtime
 
 ### Warning
 {% hint style="success" %}
-@Manager\#9545 **warning \[user\] \<reason>**
+@Manager\#9545 **warning \[user\] \<\reason\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -107,7 +107,7 @@ Gives user a warning
 
 ### Warning Show
 {% hint style="success" %}
-@Manager\#9545 **warning show \<user>**
+@Manager\#9545 **warning show \<\user\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -133,7 +133,7 @@ Clears all user warnings
 
 ### Punish Add
 {% hint style="success" %}
-@Manager\#9545 **punish add \[user\] \<minutes> \<reason>**
+@Manager\#9545 **punish add \[user\] \<\minutes\> \<\reason\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -146,7 +146,7 @@ Prevents user from sending messages and speaking
 
 ### Punish Remove
 {% hint style="success" %}
-@Manager\#9545 **punish remove \[user\] \<reason>**
+@Manager\#9545 **punish remove \[user\] \<\reason\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -246,7 +246,7 @@ Removes user all afk warnings
 
 ### AFK Show
 {% hint style="success" %}
-@Manager\#9545 **afk show \<user>**
+@Manager\#9545 **afk show \<\user\>**
 {% endhint %}
 
 {% hint style="info" %}

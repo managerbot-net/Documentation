@@ -33,7 +33,7 @@ Shows server info
 ### Top Users
 
 {% hint style="success" %}
-@Manager\#9545 **topusers \<role>**
+@Manager\#9545 **topusers \<\role\>**
 {% endhint %}
 
 {% hint style="info" %}

@@ -59,7 +59,7 @@ Adds player some amount of money.
 ### Money Remove
 
 {% hint style="success" %}
-@Manager\#9545 **money remove \[target\] \<amount>**
+@Manager\#9545 **money remove \[target\] \<\amount\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -73,7 +73,7 @@ Removes player's amount of money.
 ### Money Top
 
 {% hint style="success" %}
-@Manager\#9545 **money top \<count>**
+@Manager\#9545 **money top \<\count\>**
 {% endhint %}
 
 {% hint style="info" %}

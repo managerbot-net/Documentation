@@ -41,7 +41,7 @@ Purges specified amount of messages in the text channe
 
 ### Purge Auto
 {% hint style="success" %}
-@Manager\#9545 ***purge auto \<arg> \<channel> \<hours>**
+@Manager\#9545 ***purge auto \<\arg\> \<\channel\> \<\hours\>**
 {% endhint %}
 
 {% hint style="info" %}
@@ -54,7 +54,7 @@ Automatically purges selected text channel every period of time
 
 ### Boost Playtime
 {% hint style="success" %}
-@Manager\#9545 **playtime \<value>**
+@Manager\#9545 **playtime \<\value\>**
 {% endhint %}
 
 {% hint style="info" %}

@@ -45,7 +45,7 @@ Rolls a die.
 ### Random Number
 
 {% hint style="success" %}
-@Manager\#9545 **randomNumber \<min> \<max>**
+@Manager\#9545 **randomNumber \<\min\> \<\max\>**
 {% endhint %}
 
 {% hint style="info" %}
