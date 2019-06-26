@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Utility
 
 ## Profile
@@ -11,7 +15,7 @@ Shows user's profile
 {% endhint %}
 
 ```text
-@Manager#9545 profile @SirSecurity#0959
+@Manager#9545 profile
 ```
 
 ## Request Mute
@@ -31,7 +35,8 @@ You can request to mute somebody
 ## Game Sales Add
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales add \[url\]** @Manager\#9545 **gamesales add \[author\] \[url\]**
+@Manager\#9545 **gamesales add \[url\]**   
+@Manager\#9545 **gamesales add \[author\] \[url\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -41,16 +46,6 @@ Creates a game sales notification
 ```text
 @Manager#9545 gamesales add https://game.example.com/
 ```
-
-### **Voting**
-
-| Command name | Syntax | Aliases | Description | Video |
-| :--- | :--- | :--- | :--- | :--- |
-| add | add \[params\] | - | Creates a new voting | - |
-| close | close \[id\] | - | Closes the voting | - |
-| remove | remove \[id\] | - | "Removes the voting | - |
-| clearGuild | clearGuild | - | Clears all guild votings | - |
-| clearall | clearall | - | Clears all votings. | - |
 
 ## Voting Add
 

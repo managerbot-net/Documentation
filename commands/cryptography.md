@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Cryptography
 
 ## Encrypt

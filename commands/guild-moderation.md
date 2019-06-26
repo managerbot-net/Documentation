@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Guild Moderation
 
 ## Set Language
@@ -45,7 +49,7 @@ Purges specified amount of messages in the text channel
 ## Purge Auto
 
 {% hint style="success" %}
-@Manager\#9545 **\*purge auto &lt;arg&gt; &lt;channel&gt; &lt;hours&gt;**
+@Manager\#9545 **\*purge auto \[arg\] \[channel\] \[hours\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,7 +63,7 @@ Automatically purges selected text channel every period of time
 ## Boost Playtime
 
 {% hint style="success" %}
-@Manager\#9545 **playtime &lt;value&gt;**
+@Manager\#9545 **playtime \[value\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -105,7 +109,7 @@ Changes channel of the audit log
 {% endhint %}
 
 {% hint style="info" %}
-
+Changes the audit channel.
 {% endhint %}
 
 ```text
@@ -119,7 +123,7 @@ Changes channel of the audit log
 {% endhint %}
 
 {% hint style="info" %}
-Modify logs
+Modify log type value
 {% endhint %}
 
 ```text
@@ -213,7 +217,7 @@ Adds a welcome message for newly joined users
 {% endhint %}
 
 ```text
-@Manager#9545 defaultMessages add welcome "Hello!"
+@Manager#9545 defaultMessages add welcome Hello!
 ```
 
 ## Default Messages Add Leave

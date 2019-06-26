@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Guild
 
 ## Invite
@@ -41,6 +45,6 @@ Shows the best playtime users in a guild.
 {% endhint %}
 
 ```text
-@Manager#9545 topusers 10
+@Manager#9545 topusers
 ```
 

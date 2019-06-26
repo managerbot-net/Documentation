@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Economy
 
 ## Shop
@@ -31,7 +35,7 @@ You can buy an item from shop.
 ## Money Show
 
 {% hint style="success" %}
-@Manager\#9545 **money show \[user\]**
+@Manager\#9545 **money show &lt;user&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -39,7 +43,7 @@ Shows how much money user has
 {% endhint %}
 
 ```text
-@Manager#9545 money show @SirSecurity#0959
+@Manager#9545 money show
 ```
 
 ## Money Add
@@ -59,7 +63,7 @@ Adds player some amount of money.
 ## Money Remove
 
 {% hint style="success" %}
-@Manager\#9545 **money remove \[target\] &lt;amount&gt;**
+@Manager\#9545 **money remove \[target\] \[amount\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -81,6 +85,6 @@ Shows the richest users on the server.
 {% endhint %}
 
 ```text
-@Manager#9545 money top 10
+@Manager#9545 money top
 ```
 

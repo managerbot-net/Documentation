@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Role
 
 ## Role Info
@@ -188,7 +192,7 @@ Removes name of rank in moderation roles
 ## Moderation Rank Promote
 
 {% hint style="success" %}
-@Manager\#9545 **promote \[user\]**
+@Manager\#9545 **moderationRank promote \[user\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -202,7 +206,7 @@ Promotes user to the next moderation role.
 ## Moderation Rank Demote
 
 {% hint style="success" %}
-@Manager\#9545 **demote \[user\]** 
+@Manager\#9545 **moderationRank demote \[user\]** 
 {% endhint %}
 
 {% hint style="info" %}

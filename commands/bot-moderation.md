@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Bot Moderation
 
 ## Bot Joined Message
@@ -11,7 +15,7 @@ Sends a welcome message
 {% endhint %}
 
 ```text
-@Manager#9545 botJoinedMessage #channel
+@Manager#9545 botJoinedMessage 
 ```
 
 ## Ping
@@ -37,7 +41,7 @@ Shut downs the bot
 ## Maintenance
 
 {% hint style="success" %}
-@Manager\#9545 **maintenance &lt;scope&gt; &lt;status&gt;**
+@Manager\#9545 **maintenance \[scope\] \[status\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -51,7 +55,7 @@ Sets maintenance status
 ## Report Add
 
 {% hint style="success" %}
-@Manager\#9545 **report add &lt;description&gt;**
+@Manager\#9545 **report add \[description\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -65,7 +69,7 @@ Adds a report to a bug or an user
 ## Report Close
 
 {% hint style="success" %}
-@Manager\#9545 **report close &lt;reportId&gt; &lt;isValid&gt; &lt;response&gt;**
+@Manager\#9545 **report close \[reportId\] \[isValid\] &lt;response&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -73,13 +77,13 @@ Closes the report
 {% endhint %}
 
 ```text
-@Manager#9545 report close 1 true Bug found
+@Manager#9545 report close 1 true
 ```
 
 ## Report Claim
 
 {% hint style="success" %}
-@Manager\#9545 **report claim &lt;reportId&gt; &lt;amount&gt;**
+@Manager\#9545 **report claim \[reportId\] &lt;amount&gt;**
 {% endhint %}
 
 {% hint style="info" %}

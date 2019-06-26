@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # API
 
 ## Find Girl Friend
@@ -31,7 +35,7 @@ Sends weather forecast about a selected town
 {% endhint %}
 
 ```text
-@Manager#9545 weather Prague
+@Manager#9545 weather
 ```
 
 ## Random Picture
@@ -45,6 +49,6 @@ Bot sends a random picture.
 {% endhint %}
 
 ```text
-@Manager#9545 randomPicture 400 300 params
+@Manager#9545 randomPicture
 ```
 

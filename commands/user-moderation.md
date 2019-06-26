@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # User Moderation
 
 ## Accept Rules
@@ -11,7 +15,7 @@ User confirms server rules
 {% endhint %}
 
 ```text
-@Manager#9545 accept
+@Manager#9545 acceptRules
 ```
 
 ## Kick
@@ -45,7 +49,8 @@ Bans user in a server.
 ## Set Nick
 
 {% hint style="success" %}
-@Manager\#9545 **setnick \[nick\]** @Manager\#9545 **setnick \[user\] \[nick\]**
+@Manager\#9545 **setnick \[nick\]**   
+@Manager\#9545 **setnick \[user\] \[nick\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -109,7 +114,7 @@ Gives user a warning
 {% endhint %}
 
 ```text
-@Manager#9545 warning @SirSecurity#0959 Afking
+@Manager#9545 warning @SirSecurity#0959
 ```
 
 ## Warning Show
@@ -123,7 +128,7 @@ Shows user's warnings
 {% endhint %}
 
 ```text
-@Manager#9545 warning show @SirSecurity#0959
+@Manager#9545 warning show
 ```
 
 ## Warning Clear
@@ -143,7 +148,7 @@ Clears all user warnings
 ## Punish Add
 
 {% hint style="success" %}
-@Manager\#9545 **punish add \[user\] &lt;minutes&gt; &lt;reason&gt;**
+@Manager\#9545 **punish add \[user\] \[minutes\] &lt;reason&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -151,7 +156,7 @@ Prevents user from sending messages and speaking
 {% endhint %}
 
 ```text
-@Manager#9545 punish add @SirSecurity#0959 10 Microphone spamming.
+@Manager#9545 punish add @SirSecurity#0959 10
 ```
 
 ## Punish Remove
@@ -273,6 +278,6 @@ Show user's all afk warnings
 {% endhint %}
 
 ```text
-@Manager#9545 afk show @SirSecurity#0959
+@Manager#9545 afk show
 ```
 

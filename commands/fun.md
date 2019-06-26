@@ -1,3 +1,7 @@
+---
+description: 'Parameters: [ Mandatory ], < Optional >'
+---
+
 # Fun
 
 ## Echo
@@ -53,7 +57,7 @@ Rock Scissors Paper Game
 {% endhint %}
 
 ```text
-@Manager#9545 randomNumber1 100
+@Manager#9545 randomNumber
 ```
 
 ## Rock Scissors Paper
@@ -94,7 +98,7 @@ Solves simple mathematical equations.
 
 {% hint style="success" %}
 @Manager\#9545 **color**  
-@Manager\#9545**color \[hexadecimal\]**  
+@Manager\#9545 **color \[hexadecimal\]**  
 @Manager\#9545 **color \[red\] \[green\] \[blue\]**
 {% endhint %}
 
