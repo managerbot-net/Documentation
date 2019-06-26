@@ -14,7 +14,7 @@ Sends a welcome message
 @Manager#9545 botJoinedMessage #channel
 ```
 
-### Ping
+## Ping
 
 {% hint style="success" %}
 @Manager\#9545 **ping**
@@ -24,7 +24,7 @@ Sends a welcome message
 Shows bot's Latency
 {% endhint %}
 
-### Shutdown
+## Shutdown
 
 {% hint style="success" %}
 @Manager\#9545 **shutdown**
@@ -34,7 +34,7 @@ Shows bot's Latency
 Shut downs the bot
 {% endhint %}
 
-### Maintenance
+## Maintenance
 
 {% hint style="success" %}
 @Manager\#9545 **maintenance &lt;scope&gt; &lt;status&gt;**
@@ -48,7 +48,7 @@ Sets maintenance status
 @Manager#9545 maintenance global enabled
 ```
 
-### Report Add
+## Report Add
 
 {% hint style="success" %}
 @Manager\#9545 **report add &lt;description&gt;**
@@ -62,7 +62,7 @@ Adds a report to a bug or an user
 @Manager#9545 report add Bot is not working.
 ```
 
-### Report Close
+## Report Close
 
 {% hint style="success" %}
 @Manager\#9545 **report close &lt;reportId&gt; &lt;isValid&gt; &lt;response&gt;**
@@ -76,7 +76,7 @@ Closes the report
 @Manager#9545 report close 1 true Bug found
 ```
 
-### Report Claim
+## Report Claim
 
 {% hint style="success" %}
 @Manager\#9545 **report claim &lt;reportId&gt; &lt;amount&gt;**
