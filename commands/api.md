@@ -14,6 +14,8 @@ description: 'Parameters: [ Mandatory ], < Optional >'
 Generates random American girl
 {% endhint %}
 
+![](../.gitbook/assets/findgirlfriend.PNG)
+
 ## Chuck Norris
 
 {% hint style="success" %}
@@ -23,6 +25,8 @@ Generates random American girl
 {% hint style="info" %}
 Sends a Chuck Norris joke
 {% endhint %}
+
+![](../.gitbook/assets/chucknorris.PNG)
 
 ## Weather
 
@@ -38,6 +42,8 @@ Sends weather forecast about a selected town
 @Manager#9545 weather
 ```
 
+![](../.gitbook/assets/weather.PNG)
+
 ## Random Picture
 
 {% hint style="success" %}
@@ -51,4 +57,6 @@ Bot sends a random picture.
 ```text
 @Manager#9545 randomPicture
 ```
+
+![](../.gitbook/assets/randompicture.PNG)
 
