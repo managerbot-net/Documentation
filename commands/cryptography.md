@@ -20,6 +20,8 @@ Caesar's cipher encryption.
 @Manager#9545 caesar ABC
 ```
 
+![](../.gitbook/assets/encryptCaesar.PNG)
+
 ## Decrypt
 
 ### Caesar
@@ -35,4 +37,6 @@ Caesar's cipher decryption.
 ```text
 @Manager#9545 decrypt caesar DEF
 ```
+
+![](../.gitbook/assets/decryptCaesar.PNG)
 
