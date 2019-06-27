@@ -120,8 +120,8 @@ Generates random color or show you the color.
 
 ```text
 @Manager#9545 color
-@Manager#9545 color #00ffff
-@Manager#9545 0 255 255
+@Manager#9545 color #6B1956
+@Manager#9545 color 107 25 86
 ```
 
 ![](../.gitbook/assets/color1.PNG)
