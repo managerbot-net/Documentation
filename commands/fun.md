@@ -20,7 +20,6 @@ Says something.
 
 ![](../.gitbook/assets/echo.PNG)
 
-
 ## Pick
 
 {% hint style="success" %}
@@ -37,7 +36,6 @@ Randomly picks one of options.
 
 ![](../.gitbook/assets/pick.PNG)
 
-
 ## Roll Die
 
 {% hint style="success" %}
@@ -52,7 +50,7 @@ Rolls a die.
 @Manager#9545 rollDie 3
 ```
 
-![](../.gitbook/assets/rollDie.PNG)
+![](../.gitbook/assets/rolldie.PNG)
 
 ## Random Number
 
@@ -68,7 +66,7 @@ Rock Scissors Paper Game
 @Manager#9545 randomNumber
 ```
 
-![](../.gitbook/assets/randomNumber.PNG)
+![](../.gitbook/assets/randomnumber.PNG)
 
 ## Rock Scissors Paper
 
@@ -80,7 +78,7 @@ Rock Scissors Paper Game
 Rock Scissors Paper Game
 {% endhint %}
 
-![](../.gitbook/assets/rockScissorsPaper.PNG)
+![](../.gitbook/assets/rockscissorspaper.PNG)
 
 ## Flip A Coin
 
@@ -92,7 +90,7 @@ Rock Scissors Paper Game
 Flip a coin game
 {% endhint %}
 
-![](../.gitbook/assets/flipCoin.PNG)
+![](../.gitbook/assets/flipcoin.PNG)
 
 ## Math
 
@@ -130,4 +128,3 @@ Generates random color or show you the color.
 
 ![](../.gitbook/assets/color2.PNG)
 
-![](../.gitbook/assets/color3.PNG)
