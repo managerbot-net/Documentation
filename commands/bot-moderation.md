@@ -15,10 +15,10 @@ Sends a welcome message
 {% endhint %}
 
 ```text
-@Manager#9545 botJoinedMessage 
+@Manager#9545 botJoinedMessage
 ```
 
-![](../.gitbook/assets/botJoinedMessage.PNG)
+![](../.gitbook/assets/botjoinedmessage.PNG)
 
 ## Ping
 
@@ -74,8 +74,11 @@ Adds a report to a bug or an user
 @Manager#9545 report add Bot is not working.
 ```
 
-![](../.gitbook/assets/reportAdded.PNG)
-![](../.gitbook/assets/reportAddedEmbed.PNG)
+![](../.gitbook/assets/reportadded.PNG)
+
+![](../.gitbook/assets/reportaddedembed.PNG)
+
+
 
 ## Report Close
 
@@ -91,8 +94,9 @@ Closes the report
 @Manager#9545 report close 1 true
 ```
 
-![](../.gitbook/assets/reportClosed.PNG)
-![](../.gitbook/assets/reportClosedEmbed.PNG)
+![](../.gitbook/assets/reportclosed.PNG)
+
+![](../.gitbook/assets/reportclosedembed.PNG)
 
 ## Report Claim
 
@@ -108,5 +112,7 @@ Gives an user a reward for a reporting
 @Manager#9545 report claim 1 15
 ```
 
-![](../.gitbook/assets/reportClaimed.PNG)
-![](../.gitbook/assets/reportClaimedEmbed.PNG)
+![](../.gitbook/assets/reportclaimed.PNG)
+
+![](../.gitbook/assets/reportclaimedembed.PNG)
+
