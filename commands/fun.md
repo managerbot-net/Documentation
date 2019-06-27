@@ -128,3 +128,5 @@ Generates random color or show you the color.
 
 ![](../.gitbook/assets/color2.PNG)
 
+![](../.gitbook/assets/color3.PNG)
+
