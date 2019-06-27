@@ -18,6 +18,8 @@ Sends a welcome message
 @Manager#9545 botJoinedMessage 
 ```
 
+![](../.gitbook/assets/botJoinedMessage.PNG)
+
 ## Ping
 
 {% hint style="success" %}
@@ -28,6 +30,8 @@ Sends a welcome message
 Shows bot's Latency
 {% endhint %}
 
+![](../.gitbook/assets/ping.PNG)
+
 ## Shutdown
 
 {% hint style="success" %}
@@ -37,6 +41,8 @@ Shows bot's Latency
 {% hint style="info" %}
 Shut downs the bot
 {% endhint %}
+
+![](../.gitbook/assets/shutdown.PNG)
 
 ## Maintenance
 
@@ -52,6 +58,8 @@ Sets maintenance status
 @Manager#9545 maintenance global enabled
 ```
 
+![](../.gitbook/assets/maintenance.PNG)
+
 ## Report Add
 
 {% hint style="success" %}
@@ -65,6 +73,9 @@ Adds a report to a bug or an user
 ```text
 @Manager#9545 report add Bot is not working.
 ```
+
+![](../.gitbook/assets/reportAdded.PNG)
+![](../.gitbook/assets/reportAddedEmbed.PNG)
 
 ## Report Close
 
@@ -80,6 +91,9 @@ Closes the report
 @Manager#9545 report close 1 true
 ```
 
+![](../.gitbook/assets/reportClosed.PNG)
+![](../.gitbook/assets/reportClosedEmbed.PNG)
+
 ## Report Claim
 
 {% hint style="success" %}
@@ -94,3 +108,5 @@ Gives an user a reward for a reporting
 @Manager#9545 report claim 1 15
 ```
 
+![](../.gitbook/assets/reportClaimed.PNG)
+![](../.gitbook/assets/reportClaimedEmbed.PNG)
