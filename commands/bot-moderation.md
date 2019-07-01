@@ -1,5 +1,5 @@
 ---
-description: 'Parameters: [ Mandatory ], < Optional >'
+description: 'Parameters between `[ ]` are mandatory, and `< >` are optional.'
 ---
 
 # Bot Moderation
