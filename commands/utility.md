@@ -35,7 +35,7 @@ You can request to mute somebody
 ## Game Sales Add
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales add \[url\]**   
+@Manager\#9545 **gamesales add \[url\]**  
 @Manager\#9545 **gamesales add \[author\] \[url\]**
 {% endhint %}
 

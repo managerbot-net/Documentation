@@ -78,8 +78,6 @@ Adds a report to a bug or an user
 
 ![](../.gitbook/assets/reportaddedembed.PNG)
 
-
-
 ## Report Close
 
 {% hint style="success" %}

@@ -49,7 +49,7 @@ Bans user in a server.
 ## Set Nick
 
 {% hint style="success" %}
-@Manager\#9545 **setnick \[nick\]**   
+@Manager\#9545 **setnick \[nick\]**  
 @Manager\#9545 **setnick \[user\] \[nick\]**
 {% endhint %}
 

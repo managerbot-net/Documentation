@@ -1,6 +1,12 @@
 # Table of contents
 
-* [ManagerBot](README.md)
+* [HOMEPAGE](README.md)
+* [ManagerBot](managerbot.md)
+* [ChangeLog](changelog.md)
+
+## Systems
+
+* [Untitled](systems/untitled.md)
 
 ## Commands
 
