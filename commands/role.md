@@ -18,6 +18,8 @@ Shows permissions for specified role
 @Manager#9545 roleinfo @Guest
 ```
 
+![](../.gitbook/assets/roleinfo.PNG)
+
 ### Role Difference
 
 {% hint style="success" %}
@@ -31,6 +33,8 @@ Shows two different roles permissions
 ```text
 @Manager#9545 roledifference @Guest @Regular
 ```
+
+![](../.gitbook/assets/roledifference.PNG)
 
 ## Role
 

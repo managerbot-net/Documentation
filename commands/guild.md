@@ -14,6 +14,8 @@ description: 'Parameters between `[ ]` are mandatory, and `< >` are optional.'
 Sends a server invitation link
 {% endhint %}
 
+![](../.gitbook/assets/invite.PNG)
+
 ## Member Count
 
 {% hint style="success" %}
@@ -24,6 +26,12 @@ Sends a server invitation link
 Shows number of members in current guild
 {% endhint %}
 
+```text
+@Manager#9545 membercount
+```
+
+![](../.gitbook/assets/membercount.PNG)
+
 ## Server Info
 
 {% hint style="success" %}
@@ -33,6 +41,12 @@ Shows number of members in current guild
 {% hint style="info" %}
 Shows server info
 {% endhint %}
+
+```text
+@Manager#9545 serverinfo
+```
+
+![](../.gitbook/assets/serverinfo.PNG)
 
 ## Top Users
 

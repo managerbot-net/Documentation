@@ -18,6 +18,8 @@ Shows help.
 @Manager#9545 help help
 ```
 
+![](../.gitbook/assets/help.PNG)
+
 ## Helper
 
 {% hint style="success" %}
@@ -31,4 +33,6 @@ Shows a help for specific moderation ranks.
 ```text
 @Manager#9545 helper @Staff
 ```
+
+![](../.gitbook/assets/helper.PNG)
 
