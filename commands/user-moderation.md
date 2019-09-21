@@ -82,7 +82,7 @@ Resets user profile
 {% endhint %}
 
 {% hint style="info" %}
-Adds user some playtime
+Add user playtime
 {% endhint %}
 
 ```text
@@ -96,7 +96,7 @@ Adds user some playtime
 {% endhint %}
 
 {% hint style="info" %}
-Remove user some playtime
+Remove user playtime
 {% endhint %}
 
 ```text
@@ -110,7 +110,7 @@ Remove user some playtime
 {% endhint %}
 
 {% hint style="info" %}
-Gives user a warning
+Give user a warning
 {% endhint %}
 
 ```text
@@ -124,7 +124,7 @@ Gives user a warning
 {% endhint %}
 
 {% hint style="info" %}
-Shows user's warnings
+Show user's warnings
 {% endhint %}
 
 ```text
@@ -138,7 +138,7 @@ Shows user's warnings
 {% endhint %}
 
 {% hint style="info" %}
-Clears all user warnings
+Clear all user warnings
 {% endhint %}
 
 ```text
@@ -187,6 +187,20 @@ Mutes user's microphone
 @Manager#9545 mute voice @SirSecurity#0959
 ```
 
+## UnMute Voice
+
+{% hint style="success" %}
+@Manager\#9545 **unmute voice \[user\]**
+{% endhint %}
+
+{% hint style="info" %}
+UnMutes user's microphone
+{% endhint %}
+
+```text
+@Manager#9545 unmute voice @SirSecurity#0959
+```
+
 ## Mute Chat
 
 {% hint style="success" %}
@@ -201,24 +215,10 @@ Mutes user's chat
 @Manager#9545 mute chat @SirSecurity#0959 5
 ```
 
-## UnMute Voice
-
-{% hint style="success" %}
-@Manager\#9545 **mute voice \[user\] \[minutes\]**
-{% endhint %}
-
-{% hint style="info" %}
-UnMutes user's microphone
-{% endhint %}
-
-```text
-@Manager#9545 unmute voice @SirSecurity#0959
-```
-
 ## UnMute Chat
 
 {% hint style="success" %}
-@Manager\#9545 **mute chat \[user\] \[minutes\]**
+@Manager\#9545 **unmute chat \[user\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -226,7 +226,7 @@ UnMutes user's chat
 {% endhint %}
 
 ```text
-@Manager#9545 unmute chat @SirSecurity#0959 5
+@Manager#9545 unmute chat @SirSecurity#0959
 ```
 
 ## AFK Warn
