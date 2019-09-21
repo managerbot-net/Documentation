@@ -47,7 +47,9 @@ Creates a game sales notification
 @Manager#9545 gamesales add https://game.example.com/
 ```
 
-## Voting Add
+## Voting
+
+### Voting Add
 
 {% hint style="success" %}
 @Manager\#9545 **voting add \[params\]**
@@ -61,7 +63,7 @@ Creates a new voting
 @Manager#9545 voting add Title;Description
 ```
 
-## Voting Close
+### Voting Close
 
 {% hint style="success" %}
 @Manager\#9545 **voting close \[id\]**
@@ -75,7 +77,7 @@ Closes the voting
 @Manager#9545 voting close 1
 ```
 
-## Voting Clear Guild
+### Voting Clear Guild
 
 {% hint style="success" %}
 @Manager\#9545 **voting clearGuild**
@@ -85,7 +87,7 @@ Closes the voting
 Clears all guild votings
 {% endhint %}
 
-## Voting Clear All
+### Voting Clear All
 
 {% hint style="success" %}
 @Manager\#9545 **voting clearAll**

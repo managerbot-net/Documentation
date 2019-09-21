@@ -60,7 +60,9 @@ Sets maintenance status
 
 ![](../.gitbook/assets/maintenance.PNG)
 
-## Report Add
+## Report
+
+### Report Add
 
 {% hint style="success" %}
 @Manager\#9545 **report add \[description\]**
@@ -78,7 +80,7 @@ Adds a report to a bug or an user
 
 ![](../.gitbook/assets/reportaddedembed.PNG)
 
-## Report Close
+### Report Close
 
 {% hint style="success" %}
 @Manager\#9545 **report close \[reportId\] \[isValid\] &lt;response&gt;**
@@ -96,7 +98,7 @@ Closes the report
 
 ![](../.gitbook/assets/reportclosedembed.PNG)
 
-## Report Claim
+### Report Claim
 
 {% hint style="success" %}
 @Manager\#9545 **report claim \[reportId\] &lt;amount&gt;**

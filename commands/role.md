@@ -4,7 +4,7 @@ description: 'Parameters between `[ ]` are mandatory, and `< >` are optional.'
 
 # Role
 
-## Role Info
+### Role Info
 
 {% hint style="success" %}
 @Manager\#9545 **roleinfo \[role\]**
@@ -18,7 +18,7 @@ Shows permissions for specified role
 @Manager#9545 roleinfo @Guest
 ```
 
-## Role Difference
+### Role Difference
 
 {% hint style="success" %}
 @Manager\#9545 **roledifference \[role1\] \[role2\]**
@@ -32,7 +32,9 @@ Shows two different roles permissions
 @Manager#9545 roledifference @Guest @Regular
 ```
 
-## **Role**
+## Role
+
+### **Role**
 
 {% hint style="success" %}
 @Manager\#9545 **role \[role\]**  
@@ -47,7 +49,7 @@ Assigns the self-assignable role
 @Manager#9545 role @GTA
 ```
 
-## Role Show
+### Role Show
 
 {% hint style="success" %}
 @Manager\#9545 **role show**
@@ -57,7 +59,7 @@ Assigns the self-assignable role
 Shows all the self-assignable roles
 {% endhint %}
 
-## **Role Add**
+### **Role Add**
 
 {% hint style="success" %}
 @Manager\#9545 **role add \[role\] \[emote\]**
@@ -71,7 +73,7 @@ Adds a self assignable role
 @Manager#9545 role add @GTA
 ```
 
-## **Role Remove**
+### **Role Remove**
 
 {% hint style="success" %}
 @Manager\#9545 **role remove \[role\]**
@@ -85,7 +87,9 @@ Removes a self assignable role
 @Manager#9545 roler remove @GTA
 ```
 
-## **Moderation Rank Add**
+## Moderation Rank
+
+### **Moderation Rank Add**
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank add \[role\] \[position\]**
@@ -96,10 +100,10 @@ Adds a role to moderation rank
 {% endhint %}
 
 ```text
-@Manager#9545 moderationRank add @Guest 1
+@Manager#9545 moderationRank add @Administrator 1
 ```
 
-## **Moderation Rank Remove**
+### **Moderation Rank Remove**
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank remove \[role\]**
@@ -110,10 +114,10 @@ Removes a role from moderation rank
 {% endhint %}
 
 ```text
-@Manager#9545 moderationRank remove Staff
+@Manager#9545 moderationRank remove @Moderator
 ```
 
-## **Moderation Rank Show**
+### Moderation Rank Show
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank show**
@@ -123,7 +127,11 @@ Removes a role from moderation rank
 Shows all moderation roles in a guild
 {% endhint %}
 
-## Moderation Add Name
+```text
+@Manager#9545 moderationrank show
+```
+
+### Moderation Add Name
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank addName \[position\] \[name\]**
@@ -137,7 +145,7 @@ Adds a name of rank in moderation roles
 @Manager#9545 moderationRank addName 3 Staff-Category
 ```
 
-## Moderation Rank Remove Name
+### Moderation Rank Remove Name
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank remName \[position\]**
@@ -151,45 +159,7 @@ Removes a role from moderation rank
 @Manager#9545 moderationRank remName 3
 ```
 
-## Moderation Rank Show
-
-{% hint style="success" %}
-@Manager\#9545 **moderationRank show**
-{% endhint %}
-
-{% hint style="info" %}
-Shows all moderation roles in a guild
-{% endhint %}
-
-## Moderation Rank Add Name
-
-{% hint style="success" %}
-@Manager\#9545 **moderationRank addName \[position\] \[name\]**
-{% endhint %}
-
-{% hint style="info" %}
-Adds a name of rank in moderation roles
-{% endhint %}
-
-```text
-@Manager#9545 moderationRank addName 1 Administrators
-```
-
-## Moderation Rank Remove Name
-
-{% hint style="success" %}
-@Manager\#9545 **moderationRank remName \[position\]**
-{% endhint %}
-
-{% hint style="info" %}
-Removes name of rank in moderation roles
-{% endhint %}
-
-```text
-@Manager#9545 moderationRank remName 1
-```
-
-## Moderation Rank Promote
+### Moderation Rank Promote
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank promote \[user\]**
@@ -200,10 +170,10 @@ Promotes user to the next moderation role.
 {% endhint %}
 
 ```text
-@Manager#9545 promote @SirSecurity#0959
+@Manager#9545 moderationrank promote @SirSecurity#0959
 ```
 
-## Moderation Rank Demote
+### Moderation Rank Demote
 
 {% hint style="success" %}
 @Manager\#9545 **moderationRank demote \[user\]**
@@ -214,7 +184,7 @@ Demotes user to the previous moderation role.
 {% endhint %}
 
 ```text
-@Manager#9545 modertionRank demote \[user\]
+@Manager#9545 modertionRank demote @SirSecurity#0959
 ```
 
 ## Default Roles Add
@@ -228,10 +198,12 @@ Sets a role as a default role.
 {% endhint %}
 
 ```text
-@Manager#9545 defaultRoles  add @GTA
+@Manager#9545 defaultRoles add @GTA
 ```
 
-## Default Roles Remove
+## Default Roles
+
+### Default Roles Remove
 
 {% hint style="success" %}
 @Manager\#9545 **defaultRoles remove \[name\]**
@@ -245,7 +217,7 @@ Removes a role from default roles.
 @Manager#9545 defaultRoles remove @GTA
 ```
 
-## Default Roles Show
+### Default Roles Show
 
 {% hint style="success" %}
 @Manager\#9545 **defaultRoles show**
@@ -259,7 +231,9 @@ Shows all moderation roles in a guild.
 @Manager#9545 defaultRoles show
 ```
 
-## Leveling Role Add
+## Leveling Roles
+
+### Leveling Role Add
 
 {% hint style="success" %}
 @Manager\#9545 **levelingRole add \[role\] \[hours\]**
@@ -273,7 +247,7 @@ Adds a leveling role.
 @Manager#9545 levelingRole add @Guest 5
 ```
 
-## Leveling Role Remove
+### Leveling Roles Remove
 
 {% hint style="success" %}
 @Manager\#9545 **levelingRole remove \[role\]**
@@ -287,7 +261,7 @@ Removes a role from leveling roles.
 @Manager#9545 levelingRole remove @Guest
 ```
 
-## Leveling Role Insert
+### Leveling Role Insert
 
 {% hint style="success" %}
 @Manager\#9545 **levelingRole insert \[role\] \[position\] \[hours\]**
@@ -301,7 +275,7 @@ Inserts a role to leveling roles
 @Manager#9545 insert @Pro 3 300
 ```
 
-## Leveling Role Show
+### Leveling Role Show
 
 {% hint style="success" %}
 @Manager\#9545 **levelingRole show**
@@ -311,7 +285,9 @@ Inserts a role to leveling roles
 Shows leveling roles.
 {% endhint %}
 
-## DJ Role Add
+## Dj Role
+
+### DJ Role Add
 
 {% hint style="success" %}
 @Manager\#9545 **djrole add \[user\]**
@@ -325,7 +301,7 @@ Adds a dj role to an user.
 @Manager#9545 djrole add @SirSecurity#0959
 ```
 
-## DJ Role Remove
+### DJ Role Remove
 
 {% hint style="success" %}
 @Manager\#9545 **djrole remove \[user\]**
@@ -339,7 +315,7 @@ Removes an user's dj role.
 @Manager#9545 djrole remove @SirSecurity#0959
 ```
 
-## DJ Role Set
+### DJ Role Set
 
 {% hint style="success" %}
 @Manager\#9545 **djrole set \[role\]**
@@ -353,7 +329,7 @@ Sets guild dj role.
 @Manager#9545 djrole set @Dj
 ```
 
-## DJ Role Delete
+### DJ Role Delete
 
 {% hint style="success" %}
 @Manager\#9545 **djrole delete \[role\]**
@@ -367,7 +343,7 @@ Removes guild dj role.
 @Manager#9545 djrole delete @Dj
 ```
 
-## DJ Role Show
+### DJ Role Show
 
 {% hint style="success" %}
 @Manager\#9545 **djrole show**

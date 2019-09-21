@@ -32,7 +32,9 @@ You can buy an item from shop.
 @Manager#9545 buy
 ```
 
-## Money Show
+## Money
+
+### Money Show
 
 {% hint style="success" %}
 @Manager\#9545 **money show &lt;user&gt;**
@@ -46,7 +48,7 @@ Shows how much money user has
 @Manager#9545 money show
 ```
 
-## Money Add
+### Money Add
 
 {% hint style="success" %}
 @Manager\#9545 **money add \[target\] \[amount\]**
@@ -60,7 +62,7 @@ Adds player some amount of money.
 @Manager#9545 money add @SirSecurity#0959 10
 ```
 
-## Money Remove
+### Money Remove
 
 {% hint style="success" %}
 @Manager\#9545 **money remove \[target\] \[amount\]**
@@ -74,7 +76,7 @@ Removes player's amount of money.
 @Manager#9545 remove @SirSecurity#0959 10
 ```
 
-## Money Top
+### Money Top
 
 {% hint style="success" %}
 @Manager\#9545 **money top &lt;count&gt;**
