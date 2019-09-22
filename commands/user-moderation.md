@@ -18,6 +18,8 @@ User confirms server rules
 @Manager#9545 acceptRules
 ```
 
+![](../.gitbook/assets/acceptrules.PNG)
+
 ## Kick
 
 {% hint style="success" %}

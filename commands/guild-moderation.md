@@ -18,6 +18,8 @@ Sets bot communicating language in the guild
 @Manager#9545 setlang ENG
 ```
 
+![](../.gitbook/assets/setlang.PNG)
+
 ## Prefix
 
 {% hint style="success" %}
@@ -27,6 +29,8 @@ Sets bot communicating language in the guild
 {% hint style="info" %}
 Sets bot prefix in the guild
 {% endhint %}
+
+![](../.gitbook/assets/prefix.PNG)
 
 ```text
 @Manager#9545 prefix /
@@ -45,6 +49,8 @@ Purges specified amount of messages in the text channel
 ```text
 @Manager#9545 purge 1000
 ```
+
+![](../.gitbook/assets/prefix%20%281%29.PNG)
 
 ## Boost Playtime
 

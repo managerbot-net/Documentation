@@ -48,6 +48,8 @@ Shows how much money user has
 @Manager#9545 money show
 ```
 
+![](../.gitbook/assets/moneyshow.PNG)
+
 ### Money Add
 
 {% hint style="success" %}
@@ -61,6 +63,8 @@ Adds player some amount of money.
 ```text
 @Manager#9545 money add @SirSecurity#0959 10
 ```
+
+![](../.gitbook/assets/moneyadd.PNG)
 
 ### Money Remove
 
@@ -76,6 +80,8 @@ Removes player's amount of money.
 @Manager#9545 remove @SirSecurity#0959 10
 ```
 
+![](../.gitbook/assets/moneyremove.PNG)
+
 ### Money Top
 
 {% hint style="success" %}
@@ -89,4 +95,6 @@ Shows the richest users on the server.
 ```text
 @Manager#9545 money top
 ```
+
+![](../.gitbook/assets/moneytop.PNG)
 
