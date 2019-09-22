@@ -47,10 +47,10 @@ Purges specified amount of messages in the text channel
 {% endhint %}
 
 ```text
-@Manager#9545 purge 1000
+@Manager#9545 purge 10
 ```
 
-![](../.gitbook/assets/prefix%20%281%29.PNG)
+![](../.gitbook/assets/purge.PNG)
 
 ## Boost Playtime
 
