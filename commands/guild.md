@@ -59,6 +59,8 @@ Shows the best playtime users in a guild.
 {% endhint %}
 
 ```text
-@Manager#9545 topusers
+@Manager#9545 topusers 3
 ```
+
+![](../.gitbook/assets/topusers.PNG)
 

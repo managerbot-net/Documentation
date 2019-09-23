@@ -15,7 +15,7 @@ Shows permissions for specified role
 {% endhint %}
 
 ```text
-@Manager#9545 roleinfo @Guest
+@Manager#9545 roleinfo @Member
 ```
 
 ![](../.gitbook/assets/roleinfo.PNG)
@@ -31,7 +31,7 @@ Shows two different roles permissions
 {% endhint %}
 
 ```text
-@Manager#9545 roledifference @Guest @Regular
+@Manager#9545 roledifference @Dedicated @Pro
 ```
 
 ![](../.gitbook/assets/roledifference.PNG)
@@ -50,8 +50,10 @@ Assigns the self-assignable role
 {% endhint %}
 
 ```text
-@Manager#9545 role @GTA
+@Manager#9545 role @Gamer
 ```
+
+![](../.gitbook/assets/role.PNG)
 
 ### Role Show
 
@@ -62,6 +64,12 @@ Assigns the self-assignable role
 {% hint style="info" %}
 Shows all the self-assignable roles
 {% endhint %}
+
+```text
+@Manager#9545 role show
+```
+
+![](../.gitbook/assets/roleshow.PNG)
 
 ### **Role Add**
 
@@ -77,6 +85,8 @@ Adds a self assignable role
 @Manager#9545 role add @GTA
 ```
 
+![](../.gitbook/assets/roleadd.PNG)
+
 ### **Role Remove**
 
 {% hint style="success" %}
@@ -90,6 +100,8 @@ Removes a self assignable role
 ```text
 @Manager#9545 roler remove @GTA
 ```
+
+![](../.gitbook/assets/roleremove.PNG)
 
 ## Moderation Rank
 
@@ -191,7 +203,9 @@ Demotes user to the previous moderation role.
 @Manager#9545 modertionRank demote @SirSecurity#0959
 ```
 
-## Default Roles Add
+## Default Roles
+
+### Default Roles Add
 
 {% hint style="success" %}
 @Manager\#9545 **defaultRoles add \[name\]**
@@ -204,8 +218,6 @@ Sets a role as a default role.
 ```text
 @Manager#9545 defaultRoles add @GTA
 ```
-
-## Default Roles
 
 ### Default Roles Remove
 
