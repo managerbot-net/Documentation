@@ -55,7 +55,7 @@ Purges specified amount of messages in the text channel
 ## Boost Playtime
 
 {% hint style="success" %}
-@Manager\#9545 **playtime \[value\]**
+@Manager\#9545 **boost playtime \[value\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -66,40 +66,46 @@ Sets playtime booster
 @Manager#9545 boost playtime 1.5
 ```
 
+![](../.gitbook/assets/boostplaytime%20%281%29.PNG)
+
 ## Audit
 
-### Audit Set
+### Audit Create
 
 {% hint style="success" %}
-@Manager\#9545 **audit set \[channel\]**
+@Manager\#9545 **audit create \[channel\]**
 {% endhint %}
 
 {% hint style="info" %}
-Sets channel for an audit log
+Create new audit log configuration
 {% endhint %}
 
 ```text
-@Manager#9545 audit set #channel
+@Manager#9545 audit create #audit-channel
 ```
+
+![](../.gitbook/assets/auditcreate.PNG)
 
 ### Audit Remove
 
 {% hint style="success" %}
-@Manager\#9545 **audit remove \[channel\]**
+@Manager\#9545 **audit remove**
 {% endhint %}
 
 {% hint style="info" %}
-Changes channel of the audit log
+Removes audit configuration
 {% endhint %}
 
 ```text
-@Manager#9545 audit remove #channel
+@Manager#9545 audit remove
 ```
 
-### Audit Move
+![](../.gitbook/assets/auditremove.PNG)
+
+### Audit Channel
 
 {% hint style="success" %}
-@Manager\#9545 **audit move \[channel\]**
+@Manager\#9545 **audit channel \[channel\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -107,8 +113,10 @@ Changes the audit channel.
 {% endhint %}
 
 ```text
-@Manager#9545 audit move LogType
+@Manager#9545 audit channel #audit-channel
 ```
+
+![](../.gitbook/assets/auditchannel.PNG)
 
 ### Audit Modify
 
@@ -121,8 +129,10 @@ Modify log type value
 {% endhint %}
 
 ```text
-@Manager#9545 audit modify Administrator
+@Manager#9545 audit modify UserJoinedChannel
 ```
+
+![](../.gitbook/assets/auditmodify.PNG)
 
 ### Audit Value
 
@@ -135,8 +145,10 @@ Gives you the true/false value of the state
 {% endhint %}
 
 ```text
-@Manager#9545 audit value Administrator
+@Manager#9545 audit value UserJoinedGuild
 ```
+
+![](../.gitbook/assets/auditvalue.PNG)
 
 ### Audit Values
 
@@ -147,6 +159,12 @@ Gives you the true/false value of the state
 {% hint style="info" %}
 Gives you all the values of Log states
 {% endhint %}
+
+```text
+@Manager#9545 audit values
+```
+
+![](../.gitbook/assets/auditvalues.PNG)
 
 ## Communication Channel
 
@@ -164,6 +182,8 @@ Sets channel as bot communication channel
 @Manager#9545 communicationChannel add #channel
 ```
 
+![](../.gitbook/assets/communicationchanneladd.PNG)
+
 ### Communication Channel Remove
 
 {% hint style="success" %}
@@ -178,6 +198,8 @@ Removes channel from bot communication channels
 @Manager#9545 communicationChannel remove #channel
 ```
 
+![](../.gitbook/assets/communicationchannelremove.PNG)
+
 ### Communication Channel Show
 
 {% hint style="success" %}
@@ -187,6 +209,12 @@ Removes channel from bot communication channels
 {% hint style="info" %}
 Shows bot communication channels
 {% endhint %}
+
+```text
+@Manager#9545 communicationChannel show
+```
+
+![](../.gitbook/assets/communicationchannelshow.PNG)
 
 ### Communication Channel Main
 
@@ -202,9 +230,13 @@ Sets channel as a main bot communication channel
 @Manager#9545 communicationChannel main #channel
 ```
 
+![](../.gitbook/assets/communicationchannelmain.PNG)
+
 ## Default Messages
 
-### Default Messages Add Welcome
+### Default Messages Add
+
+#### Default Messages Add Welcome
 
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages add welcome \[message\]**
@@ -218,7 +250,9 @@ Adds a welcome message for newly joined users
 @Manager#9545 defaultMessages add welcome Hello!
 ```
 
-### Default Messages Add Leave
+![](../.gitbook/assets/defaultmessagesaddwelcome.PNG)
+
+#### Default Messages Add Leave
 
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages add leave \[message\]**
@@ -232,7 +266,11 @@ Adds a leave message for newly joined users
 @Manager#9545 defaultMessages add leave "Bye!"
 ```
 
-### Default Messages Remove Welcome
+![](../.gitbook/assets/defaultmessagesaddleave.PNG)
+
+### Default Messages Remove
+
+#### Default Messages Remove Welcome
 
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages remove welcome**
@@ -246,7 +284,9 @@ Removes a welcome message for newly joined users
 @Manager#9545 defaultMessages remove welcome
 ```
 
-### Default Messages Remove Leave
+![](../.gitbook/assets/defaultmessagesremovewelcome.PNG)
+
+#### Default Messages Remove Leave
 
 {% hint style="success" %}
 @Manager\#9545 **defaultMessages remove leave**
@@ -260,6 +300,24 @@ Removes a leave message for newly joined users
 @Manager#9545 defaultMessages remove leave
 ```
 
+![](../.gitbook/assets/defaultmessagesremoveleave.PNG)
+
+### Default Messages Show
+
+{% hint style="success" %}
+@Manager\#9545 **defaultMessages show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows welcome and leave messages
+{% endhint %}
+
+```text
+@Manager#9545 defaultMessages show
+```
+
+![](../.gitbook/assets/defaultmessagesshow.PNG)
+
 ## Game Sales Notifications
 
 ### Game Sales Notifications Channel
@@ -267,7 +325,7 @@ Removes a leave message for newly joined users
 #### Game Sales Notifications Channel Add
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales channel add \[channel\]**
+@Manager\#9545 **gamesalesnotifications channel add \[channel\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -275,25 +333,33 @@ Adds a channel to post game sales notifications
 {% endhint %}
 
 ```text
-@Manager#9545 gamesales channel add #channel
+@Manager#9545 gamesalesnotifications channel add #channel
 ```
+
+![](../.gitbook/assets/gamesalesnotificationschanneladd.PNG)
 
 #### Game Sales Notifications Channel Remove
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales channel remove**
+@Manager\#9545 **gamesalesnotifications channel remove**
 {% endhint %}
 
 {% hint style="info" %}
 Removes the channel from game sales notifications channel list
 {% endhint %}
 
+```text
+@Manager#9545 gamesalesnotifications channel remove
+```
+
+![](../.gitbook/assets/gamesalesnotificationschannelremove.PNG)
+
 ### Game Sales Notifications Role
 
 #### Game Sales Notifications Role Add
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales role add \[role\]**
+@Manager\#9545 **gamesalesnotifications role add \[role\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -301,16 +367,40 @@ Adds a role to sending notifications
 {% endhint %}
 
 ```text
-@Manager#9545 gamesales role add @Role
+@Manager#9545 gamesalesnotifications role add @Role
 ```
+
+![](../.gitbook/assets/gamesalesnotificationsroleadd.PNG)
 
 #### Game Sales Notifications Role Remove
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales role remove**
+@Manager\#9545 **gamesalesnotifications role remove**
 {% endhint %}
 
 {% hint style="info" %}
 Removes the role from game sales notification roles.
 {% endhint %}
+
+```text
+@Manager#9545 gamesalesnotifications role remove
+```
+
+![](../.gitbook/assets/gamesalesnotificationsroleremove.PNG)
+
+### Game Sales Notifications Show
+
+{% hint style="success" %}
+@Manager\#9545 **gamesalesnotifications show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows game sales notifications settings
+{% endhint %}
+
+```text
+@Manager#9545 gamesalesnotifications show
+```
+
+![](../.gitbook/assets/gamesalesnotificationsshow.PNG)
 
