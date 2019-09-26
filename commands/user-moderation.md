@@ -63,6 +63,8 @@ Set user's nickname
 @Manager#9545 setnick Quentin
 ```
 
+![](../.gitbook/assets/setnick.PNG)
+
 ## Reset Profile
 
 {% hint style="success" %}
@@ -93,6 +95,8 @@ Add user playtime
 @Manager#9545 playtime add @SirSecurity#0959 15
 ```
 
+![](../.gitbook/assets/playtimeadd.PNG)
+
 ### Playtime Remove
 
 {% hint style="success" %}
@@ -106,6 +110,8 @@ Remove user playtime
 ```text
 @Manager#9545 playtime remove @SirSecurity#0959 15
 ```
+
+![](../.gitbook/assets/playtimeremove.PNG)
 
 ## Warning
 
@@ -123,6 +129,8 @@ Give user a warning
 @Manager#9545 warning @SirSecurity#0959
 ```
 
+![](../.gitbook/assets/warning.PNG)
+
 ### Warning Show
 
 {% hint style="success" %}
@@ -137,6 +145,8 @@ Show user's warnings
 @Manager#9545 warning show
 ```
 
+![](../.gitbook/assets/warningshow.PNG)
+
 ### Warning Clear
 
 {% hint style="success" %}
@@ -150,6 +160,8 @@ Clear all user warnings
 ```text
 @Manager#9545 clear @SirSecurity#0959
 ```
+
+![](../.gitbook/assets/warningclear.PNG)
 
 ## Punish
 
@@ -197,6 +209,8 @@ Mutes user's microphone
 @Manager#9545 mute voice @SirSecurity#0959
 ```
 
+![](../.gitbook/assets/mutevoice.PNG)
+
 ### Mute Chat
 
 {% hint style="success" %}
@@ -210,6 +224,8 @@ Mutes user's chat
 ```text
 @Manager#9545 mute chat @SirSecurity#0959 5
 ```
+
+![](../.gitbook/assets/mutechat.PNG)
 
 ## UnMute
 
@@ -227,6 +243,8 @@ UnMutes user's microphone
 @Manager#9545 unmute voice @SirSecurity#0959
 ```
 
+![](../.gitbook/assets/unmutevoice.PNG)
+
 ### UnMute Chat
 
 {% hint style="success" %}
@@ -240,6 +258,8 @@ UnMutes user's chat
 ```text
 @Manager#9545 unmute chat @SirSecurity#0959
 ```
+
+![](../.gitbook/assets/unmutechat.PNG)
 
 ## AFK
 
@@ -257,6 +277,8 @@ Gives user an afk warning
 @Manager#9545 afk warn @SirSecurity#0959
 ```
 
+![](../.gitbook/assets/afkwarn.PNG)
+
 ### AFK No
 
 {% hint style="success" %}
@@ -266,6 +288,10 @@ Gives user an afk warning
 {% hint style="info" %}
 Gives user an afk warning
 {% endhint %}
+
+```text
+@Manager#9545 afk no
+```
 
 ### AFK Remove
 
@@ -294,4 +320,24 @@ Show user's all afk warnings
 ```text
 @Manager#9545 afk show
 ```
+
+![](../.gitbook/assets/afkshow.PNG)
+
+### AFK Settings
+
+{% hint style="success" %}
+@Manager\#9545 **afk settings**
+{% endhint %}
+
+{% hint style="info" %}
+Show current afk policies
+{% endhint %}
+
+```text
+@Manager#9545 afk settings
+```
+
+![](../.gitbook/assets/afksettings.PNG)
+
+### AFK Edit
 
