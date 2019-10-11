@@ -1,5 +1,5 @@
 ---
-description: 'Parameters between `[ ]` are mandatory, and `< >` are optional.'
+description: 'Parameters between [ ] are mandatory, and < > are optional.'
 ---
 
 # Fun
