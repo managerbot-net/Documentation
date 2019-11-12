@@ -30,7 +30,6 @@
 * [Auditing](systems/auditing.md)
 * [Game Sales Notifications](systems/game-sales-notifications.md)
 * [Economy](systems/economy.md)
-* [Untitled](untitled.md)
 
 ## About me
 
