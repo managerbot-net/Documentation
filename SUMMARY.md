@@ -21,16 +21,6 @@
 
 ## Systems
 
-* [Nickname](systems/untitled.md)
-* [Voting](systems/voting.md)
-* [Moderation](systems/moderation.md)
-* [Leveling Roles](systems/leveling-roles.md)
-* [Self Assignable Roles](systems/self-assignable-roles.md)
-* [Default Messages](systems/default-messages.md)
-* [Auditing](systems/auditing.md)
-* [Game Sales Notifications](systems/game-sales-notifications.md)
-* [Economy](systems/economy.md)
-
 ## About me
 
 * [Up for grabs](about-me/up-for-grabs.md)
