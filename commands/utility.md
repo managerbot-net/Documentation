@@ -32,11 +32,11 @@ You can request to mute somebody
 @Manager#9545 requestmute @SirSecurity#0959
 ```
 
-## Game Sales Add
+## Gamesale
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales add \[url\]**  
-@Manager\#9545 **gamesales add \[author\] \[url\]**
+@Manager\#9545 **gamesales \[url\]**  
+@Manager\#9545 **gamesales \[author\] \[url\]**
 {% endhint %}
 
 {% hint style="info" %}
@@ -44,7 +44,7 @@ Creates a game sales notification
 {% endhint %}
 
 ```text
-@Manager#9545 gamesales add https://game.example.com/
+@Manager#9545 gamesale https://game.example.com/
 ```
 
 ## Voting

@@ -19,8 +19,6 @@
 * [User Moderation](commands/user-moderation.md)
 * [Utility](commands/utility.md)
 
-## Systems
-
 ## About me
 
 * [Up for grabs](about-me/up-for-grabs.md)
