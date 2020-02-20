@@ -1,7 +1,6 @@
 # Table of contents
 
 * [HOMEPAGE](README.md)
-* [ManagerBot](managerbot.md)
 * [Changelog](changelog.md)
 
 ## Commands
