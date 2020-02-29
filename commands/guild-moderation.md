@@ -4,72 +4,7 @@ description: 'Parameters between [ ] are mandatory, and < > are optional.'
 
 # Guild Moderation
 
-## Set Language
-
-{% hint style="success" %}
-@Manager\#9545 **setlang \[languageShortcut\]**
-{% endhint %}
-
-{% hint style="info" %}
-Sets bot communicating language in the guild
-{% endhint %}
-
-```text
-@Manager#9545 setlang ENG
-```
-
-![](../.gitbook/assets/setlang.PNG)
-
-## Prefix
-
-{% hint style="success" %}
-@Manager\#9545 **prefix \[prefix\]**
-{% endhint %}
-
-{% hint style="info" %}
-Sets bot prefix in the guild
-{% endhint %}
-
-![](../.gitbook/assets/prefix.PNG)
-
-```text
-@Manager#9545 prefix /
-```
-
-## Purge
-
-{% hint style="success" %}
-@Manager\#9545 **purge \[messageCount\]**
-{% endhint %}
-
-{% hint style="info" %}
-Purges specified amount of messages in the text channel
-{% endhint %}
-
-```text
-@Manager#9545 purge 10
-```
-
-![](../.gitbook/assets/purge.PNG)
-
-## Boost Playtime
-
-{% hint style="success" %}
-@Manager\#9545 **boost playtime \[value\]**
-{% endhint %}
-
-{% hint style="info" %}
-Sets playtime booster
-{% endhint %}
-
-```text
-@Manager#9545 boost playtime 1.5
-```
-
-![](../.gitbook/assets/boostplaytime%20%281%29.PNG)
-
 ## Audit
-
 ### Audit Create
 
 {% hint style="success" %}
@@ -85,22 +20,6 @@ Create new audit log configuration
 ```
 
 ![](../.gitbook/assets/auditcreate.PNG)
-
-### Audit Remove
-
-{% hint style="success" %}
-@Manager\#9545 **audit remove**
-{% endhint %}
-
-{% hint style="info" %}
-Removes audit configuration
-{% endhint %}
-
-```text
-@Manager#9545 audit remove
-```
-
-![](../.gitbook/assets/auditremove.PNG)
 
 ### Audit Channel
 
@@ -134,6 +53,22 @@ Modify log type value
 
 ![](../.gitbook/assets/auditmodify.PNG)
 
+### Audit Remove
+
+{% hint style="success" %}
+@Manager\#9545 **audit remove**
+{% endhint %}
+
+{% hint style="info" %}
+Removes audit configuration
+{% endhint %}
+
+```text
+@Manager#9545 audit remove
+```
+
+![](../.gitbook/assets/auditremove.PNG)
+
 ### Audit Value
 
 {% hint style="success" %}
@@ -166,6 +101,23 @@ Gives you all the values of Log states
 
 ![](../.gitbook/assets/auditvalues.PNG)
 
+## Boost
+### Boost Playtime
+
+{% hint style="success" %}
+@Manager\#9545 **boost playtime \[value\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets playtime booster
+{% endhint %}
+
+```text
+@Manager#9545 boost playtime 1.5
+```
+
+![](../.gitbook/assets/boostplaytime%20%281%29.PNG)
+
 ## Communication Channel
 
 ### Communication Channel Add
@@ -183,6 +135,22 @@ Sets channel as bot communication channel
 ```
 
 ![](../.gitbook/assets/communicationchanneladd.PNG)
+
+### Communication Channel Main
+
+{% hint style="success" %}
+@Manager\#9545 **communicationChannel main \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets channel as a main bot communication channel
+{% endhint %}
+
+```text
+@Manager#9545 communicationChannel main #channel
+```
+
+![](../.gitbook/assets/communicationchannelmain.PNG)
 
 ### Communication Channel Remove
 
@@ -215,22 +183,6 @@ Shows bot communication channels
 ```
 
 ![](../.gitbook/assets/communicationchannelshow.PNG)
-
-### Communication Channel Main
-
-{% hint style="success" %}
-@Manager\#9545 **communicationChannel main \[channel\]**
-{% endhint %}
-
-{% hint style="info" %}
-Sets channel as a main bot communication channel
-{% endhint %}
-
-```text
-@Manager#9545 communicationChannel main #channel
-```
-
-![](../.gitbook/assets/communicationchannelmain.PNG)
 
 ## Default Messages
 
@@ -318,6 +270,82 @@ Shows welcome and leave messages
 
 ![](../.gitbook/assets/defaultmessagesshow.PNG)
 
+## Emote
+
+## Emote Add
+
+### Emote Add NoEmote
+
+{% hint style="success" %}
+@Manager\#9545 **emote add noEmote \[emote\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets NO emote for guild
+{% endhint %}
+
+```text
+@Manager#9545 emote add noEmote :no:
+```
+
+### Emote Add YesEmote
+
+{% hint style="success" %}
+@Manager\#9545 **emote add yesEmote \[emote\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets YES emote for guild
+{% endhint %}
+
+```text
+@Manager#9545 emote add yesEmote :yes:
+```
+
+## Emote Remove
+
+### Emote Remove NoEmote
+
+{% hint style="success" %}
+@Manager\#9545 **emote remove noEmote \[emote\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes NO emote for guild
+{% endhint %}
+
+```text
+@Manager#9545 emote remove noEmote :no:
+```
+
+### Emote Remove YesEmote
+
+{% hint style="success" %}
+@Manager\#9545 **emote remove yesEmote \[emote\]**
+{% endhint %}
+
+{% hint style="info" %}
+Removes YES emote for guild
+{% endhint %}
+
+```text
+@Manager#9545 emote remove yesEmote :no:
+```
+
+## Emote Show
+
+{% hint style="success" %}
+@Manager\#9545 **emote show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows all bot assigned emotes
+{% endhint %}
+
+```text
+@Manager#9545 emote show
+```
+
 ## Game Sales Notifications
 
 ### Game Sales Notifications Channel
@@ -404,3 +432,139 @@ Shows game sales notifications settings
 
 ![](../.gitbook/assets/gamesalesnotificationsshow.PNG)
 
+## Nickname
+
+## Nickname Disable
+{% hint style="success" %}
+@Manager\#9545 **nickname disable**
+{% endhint %}
+
+{% hint style="info" %}
+Disables nickname checking feature.
+{% endhint %}
+
+```text
+@Manager#9545 nickname disable
+```
+
+## Nickname MinLevel
+
+{% hint style="success" %}
+@Manager\#9545 **nickname minLevel**
+{% endhint %}
+
+{% hint style="info" %}
+Sets minimal level for user to be able to change nickname.
+{% endhint %}
+
+```text
+@Manager#9545 nickname minLevel
+```
+
+## Purge
+
+{% hint style="success" %}
+@Manager\#9545 **purge \[messageCount\]**
+{% endhint %}
+
+{% hint style="info" %}
+Purges specified amount of messages in the text channel
+{% endhint %}
+
+```text
+@Manager#9545 purge 10
+```
+
+![](../.gitbook/assets/purge.PNG)
+
+## Security
+
+### Security Gate
+
+#### Security Gate Remove
+
+% hint style="success" %}
+@Manager\#9545 **security gate remove**
+{% endhint %}
+
+{% hint style="info" %}
+Removes security gate
+{% endhint %}
+
+```text
+@Manager#9545 security gate remove
+```
+
+#### Security Gate Set
+
+% hint style="success" %}
+@Manager\#9545 **security gate set \[channel\]**
+{% endhint %}
+
+{% hint style="info" %}
+Creates a new security gate
+{% endhint %}
+
+```text
+@Manager#9545 security gate set @channel
+```
+
+#### Security Gate Show
+
+% hint style="success" %}
+@Manager\#9545 **security gate show**
+{% endhint %}
+
+{% hint style="info" %}
+Show information about gate channel
+{% endhint %}
+
+```text
+@Manager#9545 security gate show
+```
+
+### Security State
+
+% hint style="success" %}
+@Manager\#9545 **security state**
+{% endhint %}
+
+{% hint style="info" %}
+Shows security gate state
+{% endhint %}
+
+```text
+@Manager#9545 security state
+```
+
+## Set Language
+
+{% hint style="success" %}
+@Manager\#9545 **setlang \[languageShortcut\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets bot communicating language in the guild
+{% endhint %}
+
+```text
+@Manager#9545 setlang ENG
+```
+
+![](../.gitbook/assets/setlang.PNG)
+
+## Prefix
+
+{% hint style="success" %}
+@Manager\#9545 **prefix \[prefix\]**
+{% endhint %}
+
+{% hint style="info" %}
+Sets bot prefix in the guild
+{% endhint %}
+
+![](../.gitbook/assets/prefix.PNG)
+
+```text
+@Manager#9545 prefix /
+```
