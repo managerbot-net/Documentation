@@ -4,7 +4,7 @@ description: 'Parameters between [ ] are mandatory, and < > are optional.'
 
 # Bot Moderation
 
-## Bot Joined Message
+## BotJoinedMessage
 
 {% hint style="success" %}
 @Manager\#9545 **botJoinedMessage &lt;textChannel&gt;**
@@ -80,24 +80,6 @@ Adds a report to a bug or an user
 
 ![](../.gitbook/assets/reportaddedembed.PNG)
 
-### Report Close
-
-{% hint style="success" %}
-@Manager\#9545 **report close \[reportId\] \[isValid\] &lt;response&gt;**
-{% endhint %}
-
-{% hint style="info" %}
-Closes the report
-{% endhint %}
-
-```text
-@Manager#9545 report close 1 true
-```
-
-![](../.gitbook/assets/reportclosed.PNG)
-
-![](../.gitbook/assets/reportclosedembed.PNG)
-
 ### Report Claim
 
 {% hint style="success" %}
@@ -116,3 +98,48 @@ Gives an user a reward for a reporting
 
 ![](../.gitbook/assets/reportclaimedembed.PNG)
 
+### Report Close
+
+{% hint style="success" %}
+@Manager\#9545 **report close \[reportId\] \[isValid\] &lt;response&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Closes the report
+{% endhint %}
+
+```text
+@Manager#9545 report close 1 true
+```
+
+![](../.gitbook/assets/reportclosed.PNG)
+
+![](../.gitbook/assets/reportclosedembed.PNG)
+
+### Report Delete
+
+{% hint style="success" %}
+@Manager\#9545 **report deltete \[reportId\]**
+{% endhint %}
+
+{% hint style="info" %}
+Deletes an existing report.
+{% endhint %}
+
+```text
+@Manager#9545 report deltete 1
+```
+
+### Report Show
+
+{% hint style="success" %}
+@Manager\#9545 **report show**
+{% endhint %}
+
+{% hint style="info" %}
+Shows all pending reports.
+{% endhint %}
+
+```text
+@Manager#9545 report show
+```
