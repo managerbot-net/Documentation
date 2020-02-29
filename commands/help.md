@@ -15,7 +15,7 @@ Shows help.
 {% endhint %}
 
 ```text
-@Manager#9545 help help
+@Manager#9545 help invite
 ```
 
 ![](../.gitbook/assets/help.PNG)
