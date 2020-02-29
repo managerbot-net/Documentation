@@ -39,4 +39,3 @@ Caesar's cipher decryption.
 ```
 
 ![](../.gitbook/assets/decryptcaesar.PNG)
-
