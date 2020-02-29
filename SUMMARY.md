@@ -17,6 +17,7 @@
 * [Role](commands/role.md)
 * [User Moderation](commands/user-moderation.md)
 * [Utility](commands/utility.md)
+* [ASdjsdajsaoidjaosdij oiasjdoisajdoisadjoisad](commands/asdjsdajsaoidjaosdij-oiasjdoisajdoisadjoisad.md)
 
 ## About me
 

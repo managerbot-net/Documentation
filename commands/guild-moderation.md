@@ -5,6 +5,7 @@ description: 'Parameters between [ ] are mandatory, and < > are optional.'
 # Guild Moderation
 
 ## Audit
+
 ### Audit Create
 
 {% hint style="success" %}
@@ -102,6 +103,7 @@ Gives you all the values of Log states
 ![](../.gitbook/assets/auditvalues.PNG)
 
 ## Boost
+
 ### Boost Playtime
 
 {% hint style="success" %}
@@ -435,6 +437,7 @@ Shows game sales notifications settings
 ## Nickname
 
 ## Nickname Disable
+
 {% hint style="success" %}
 @Manager\#9545 **nickname disable**
 {% endhint %}
@@ -483,9 +486,7 @@ Purges specified amount of messages in the text channel
 
 #### Security Gate Remove
 
-% hint style="success" %}
-@Manager\#9545 **security gate remove**
-{% endhint %}
+% hint style="success" %} @Manager\#9545 **security gate remove**
 
 {% hint style="info" %}
 Removes security gate
@@ -497,9 +498,7 @@ Removes security gate
 
 #### Security Gate Set
 
-% hint style="success" %}
-@Manager\#9545 **security gate set \[channel\]**
-{% endhint %}
+% hint style="success" %} @Manager\#9545 **security gate set \[channel\]**
 
 {% hint style="info" %}
 Creates a new security gate
@@ -511,9 +510,7 @@ Creates a new security gate
 
 #### Security Gate Show
 
-% hint style="success" %}
-@Manager\#9545 **security gate show**
-{% endhint %}
+% hint style="success" %} @Manager\#9545 **security gate show**
 
 {% hint style="info" %}
 Show information about gate channel
@@ -525,9 +522,7 @@ Show information about gate channel
 
 ### Security State
 
-% hint style="success" %}
-@Manager\#9545 **security state**
-{% endhint %}
+% hint style="success" %} @Manager\#9545 **security state**
 
 {% hint style="info" %}
 Shows security gate state
@@ -568,3 +563,4 @@ Sets bot prefix in the guild
 ```text
 @Manager#9545 prefix /
 ```
+

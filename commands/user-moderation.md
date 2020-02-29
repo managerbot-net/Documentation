@@ -394,7 +394,7 @@ Sets maximum warnings before warning and removing hours.
 {% endhint %}
 
 ```text
-@Manager#9545 afk edit maxwarning 
+@Manager#9545 afk edit maxwarning
 ```
 
 #### AFK Edit RemovePlaytime
@@ -438,3 +438,4 @@ Sets duration of a warning
 ```text
 @Manager#9545 afk edit warningLifetime 5
 ```
+

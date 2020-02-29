@@ -203,3 +203,4 @@ Shows detailed information of shop item.
 ```text
 @Manager#9545 shop detail 123
 ```
+
