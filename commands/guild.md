@@ -16,7 +16,7 @@ Sends a server invitation link
 
 ![](../.gitbook/assets/invite.PNG)
 
-## Member Count
+## MemberCount
 
 {% hint style="success" %}
 @Manager\#9545 **membercount**
@@ -32,7 +32,7 @@ Shows number of members in current guild
 
 ![](../.gitbook/assets/membercount.PNG)
 
-## Server Info
+## ServerInfo
 
 {% hint style="success" %}
 @Manager\#9545 **serverinfo**
@@ -48,7 +48,7 @@ Shows server info
 
 ![](../.gitbook/assets/serverinfo.PNG)
 
-## Top Users
+## TopUsers
 
 {% hint style="success" %}
 @Manager\#9545 **topusers &lt;count&gt;**
