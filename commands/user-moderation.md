@@ -341,3 +341,100 @@ Show current afk policies
 
 ### AFK Edit
 
+#### AFK Edit Disable
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit disable**
+{% endhint %}
+
+{% hint style="info" %}
+Disables afk warnings handling.
+{% endhint %}
+
+```text
+@Manager#9545 afk edit disable
+```
+
+#### AFK Edit Enable
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit enable**
+{% endhint %}
+
+{% hint style="info" %}
+Enables afk warnings handling
+{% endhint %}
+
+```text
+@Manager#9545 afk edit enable
+```
+
+#### AFK Edit MaxResponseTime
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit maxresponsetime**
+{% endhint %}
+
+{% hint style="info" %}
+Sets interval between warning and user's response to cancel warning
+{% endhint %}
+
+```text
+@Manager#9545 afk edit maxresponsetime 5
+```
+
+#### AFK Edit MaxWarning
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit maxwarning**
+{% endhint %}
+
+{% hint style="info" %}
+Sets maximum warnings before warning and removing hours.
+{% endhint %}
+
+```text
+@Manager#9545 afk edit maxwarning 
+```
+
+#### AFK Edit RemovePlaytime
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit removeplaytime**
+{% endhint %}
+
+{% hint style="info" %}
+Sets hours that are removed from the user's playtime when last afk warning is added
+{% endhint %}
+
+```text
+@Manager#9545 afk edit removeplaytime 5
+```
+
+#### AFK Edit WarningCooldown
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit warningCooldown**
+{% endhint %}
+
+{% hint style="info" %}
+Sets interval between warnings
+{% endhint %}
+
+```text
+@Manager#9545 afk edit warningCooldown 4
+```
+
+#### AFK Edit WarningLifetime
+
+{% hint style="success" %}
+@Manager\#9545 **afk edit warningLifetime**
+{% endhint %}
+
+{% hint style="info" %}
+Sets duration of a warning
+{% endhint %}
+
+```text
+@Manager#9545 afk edit warningLifetime 5
+```
