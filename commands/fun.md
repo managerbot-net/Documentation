@@ -92,20 +92,6 @@ Flip a coin game
 
 ![](../.gitbook/assets/flipcoin.PNG)
 
-## Math
-
-{% hint style="success" %}
-@Manager\#9545 **math \[content\]**
-{% endhint %}
-
-{% hint style="info" %}
-Solves simple mathematical equations.
-{% endhint %}
-
-```text
-@Manager#9545 math 5 + 5
-```
-
 ## Color
 
 {% hint style="success" %}
