@@ -4,6 +4,50 @@ description: 'Parameters between [ ] are mandatory, and < > are optional.'
 
 # Utility
 
+## Activity
+
+## Activity Daily
+
+{% hint style="success" %}
+@Manager\#9545 **activity daily &lt;user&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Shows user's daily activity
+{% endhint %}
+
+```text
+@Manager#9545 activity daily
+```
+
+## Activity Weekly
+
+{% hint style="success" %}
+@Manager\#9545 **activity weekly &lt;user&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Shows user's weekly activity
+{% endhint %}
+
+```text
+@Manager#9545 activity weekly
+```
+
+## Activity Monthly
+
+{% hint style="success" %}
+@Manager\#9545 **activity monthly &lt;user&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Shows user's monthly activity
+{% endhint %}
+
+```text
+@Manager#9545 activity monthly
+```
+
 ## Profile
 
 {% hint style="success" %}
@@ -16,9 +60,25 @@ Shows user's profile
 
 ```text
 @Manager#9545 profile
+@Manager#9545 profile
 ```
 
-## Request Mute
+## RankUpInfo
+
+{% hint style="success" %}
+@Manager\#9545 **rankUpInfo &lt;user&gt;**
+{% endhint %}
+
+{% hint style="info" %}
+Shows remaining time to rank up
+{% endhint %}
+
+```text
+@Manager#9545 rankUpInfo
+@Manager#9545 rankUpInfo @User
+```
+
+## RequestMute
 
 {% hint style="success" %}
 @Manager\#9545 **requestmute \[user\]**
