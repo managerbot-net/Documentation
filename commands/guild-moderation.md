@@ -274,9 +274,9 @@ Shows welcome and leave messages
 
 ## Emote
 
-## Emote Add
+### Emote Add
 
-### Emote Add NoEmote
+#### Emote Add NoEmote
 
 {% hint style="success" %}
 @Manager\#9545 **emote add noEmote \[emote\]**
@@ -290,7 +290,7 @@ Sets NO emote for guild
 @Manager#9545 emote add noEmote :no:
 ```
 
-### Emote Add YesEmote
+#### Emote Add YesEmote
 
 {% hint style="success" %}
 @Manager\#9545 **emote add yesEmote \[emote\]**
@@ -304,9 +304,9 @@ Sets YES emote for guild
 @Manager#9545 emote add yesEmote :yes:
 ```
 
-## Emote Remove
+### Emote Remove
 
-### Emote Remove NoEmote
+#### Emote Remove NoEmote
 
 {% hint style="success" %}
 @Manager\#9545 **emote remove noEmote \[emote\]**
@@ -320,7 +320,7 @@ Removes NO emote for guild
 @Manager#9545 emote remove noEmote :no:
 ```
 
-### Emote Remove YesEmote
+#### Emote Remove YesEmote
 
 {% hint style="success" %}
 @Manager\#9545 **emote remove yesEmote \[emote\]**
@@ -334,7 +334,7 @@ Removes YES emote for guild
 @Manager#9545 emote remove yesEmote :no:
 ```
 
-## Emote Show
+### Emote Show
 
 {% hint style="success" %}
 @Manager\#9545 **emote show**
@@ -436,7 +436,7 @@ Shows game sales notifications settings
 
 ## Nickname
 
-## Nickname Disable
+### Nickname Disable
 
 {% hint style="success" %}
 @Manager\#9545 **nickname disable**
@@ -450,7 +450,7 @@ Disables nickname checking feature.
 @Manager#9545 nickname disable
 ```
 
-## Nickname MinLevel
+### Nickname MinLevel
 
 {% hint style="success" %}
 @Manager\#9545 **nickname minLevel**
