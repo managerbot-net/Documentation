@@ -2,7 +2,7 @@
 
 ## Inventory
 
-### Inventory CustomRole 
+### Inventory CustomRole
 
 #### Inventory CustomRole Color
 
@@ -35,8 +35,7 @@ Sets name for the role.
 ## My Roles
 
 {% hint style="success" %}
-@Manager\#9545 **myRoles**
-@Manager\#9545 **myRoles \[user\]**
+@Manager\#9545 **myRoles** @Manager\#9545 **myRoles &lt;user&gt;**
 {% endhint %}
 
 {% hint style="info" %}
@@ -45,5 +44,5 @@ Sets name for the role.
 
 ```text
 @Manager#9545 myRoles
-@Manager#9545 myRoles @Security
 ```
+

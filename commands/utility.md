@@ -6,7 +6,7 @@ description: 'Parameters between [ ] are mandatory, and < > are optional.'
 
 ## Activity
 
-## Activity Daily
+### Activity Daily
 
 {% hint style="success" %}
 @Manager\#9545 **activity daily &lt;user&gt;**
@@ -20,7 +20,7 @@ Shows user's daily activity
 @Manager#9545 activity daily
 ```
 
-## Activity Weekly
+### Activity Weekly
 
 {% hint style="success" %}
 @Manager\#9545 **activity weekly &lt;user&gt;**
@@ -34,7 +34,7 @@ Shows user's weekly activity
 @Manager#9545 activity weekly
 ```
 
-## Activity Monthly
+### Activity Monthly
 
 {% hint style="success" %}
 @Manager\#9545 **activity monthly &lt;user&gt;**
@@ -59,7 +59,6 @@ Shows user's profile
 {% endhint %}
 
 ```text
-@Manager#9545 profile
 @Manager#9545 profile
 ```
 
@@ -156,3 +155,4 @@ Clears all guild votings
 {% hint style="info" %}
 Clears all votings
 {% endhint %}
+
