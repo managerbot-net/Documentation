@@ -486,7 +486,9 @@ Purges specified amount of messages in the text channel
 
 #### Security Gate Remove
 
-% hint style="success" %} @Manager\#9545 **security gate remove**
+{% hint style="success" %} 
+@Manager\#9545 **security gate remove**
+{% endhint %}
 
 {% hint style="info" %}
 Removes security gate
@@ -498,7 +500,9 @@ Removes security gate
 
 #### Security Gate Set
 
-% hint style="success" %} @Manager\#9545 **security gate set \[channel\]**
+{% hint style="success" %}
+@Manager\#9545 **security gate set \[channel\]**
+{% endhint %}
 
 {% hint style="info" %}
 Creates a new security gate
@@ -510,7 +514,10 @@ Creates a new security gate
 
 #### Security Gate Show
 
-% hint style="success" %} @Manager\#9545 **security gate show**
+{% hint style="success" %}
+@Manager\#9545 **security gate show**
+{% endhint %}
+
 
 {% hint style="info" %}
 Show information about gate channel
@@ -522,7 +529,9 @@ Show information about gate channel
 
 ### Security State
 
-% hint style="success" %} @Manager\#9545 **security state**
+{% hint style="success" %}
+@Manager\#9545 **security state**
+{% endhint %}
 
 {% hint style="info" %}
 Shows security gate state
