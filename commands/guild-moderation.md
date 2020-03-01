@@ -486,7 +486,7 @@ Purges specified amount of messages in the text channel
 
 #### Security Gate Remove
 
-{% hint style="success" %} 
+{% hint style="success" %}
 @Manager\#9545 **security gate remove**
 {% endhint %}
 
@@ -517,7 +517,6 @@ Creates a new security gate
 {% hint style="success" %}
 @Manager\#9545 **security gate show**
 {% endhint %}
-
 
 {% hint style="info" %}
 Show information about gate channel

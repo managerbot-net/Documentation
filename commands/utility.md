@@ -94,8 +94,8 @@ You can request to mute somebody
 ## Gamesale
 
 {% hint style="success" %}
-@Manager\#9545 **gamesales \[url\]**  
-@Manager\#9545 **gamesales \[author\] \[url\]**
+@Manager\#9545 **gamesale \[url\]**  
+@Manager\#9545 **gamesale \[author\] \[url\]**
 {% endhint %}
 
 {% hint style="info" %}
