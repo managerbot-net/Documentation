@@ -156,4 +156,3 @@ Clears all guild votings
 {% hint style="info" %}
 Clears all votings
 {% endhint %}
-
