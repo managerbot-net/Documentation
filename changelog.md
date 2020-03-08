@@ -83,7 +83,7 @@
 
 
 
-## UPDATE 0.2.4 - Activity Update
+## UPDATE 0.2.4 - Activity update
 
 ✏️ **NEWS** ✏️
 - /role command now shows a list of selfassignable roles
@@ -109,7 +109,7 @@
 
 
 
-## UPDATE 0.2.5 - Economy UPDATE
+## UPDATE 0.2.5 - Economy update
 
 🎐 **NEWS** 🎐
 - Add shop
