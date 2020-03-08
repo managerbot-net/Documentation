@@ -1,6 +1,6 @@
 # Changelog
 
-## Update 0.2.2 - Research update
+## UPDATE 0.2.2 - Research update
 
 💠 **NEWS** 💠 
 - Logic of the main process segmented into smaller logical parts  
@@ -45,7 +45,7 @@
 
 
 
-## Update 0.2.3 - Database update
+## UPDATE 0.2.3 - Database update
 
 💎 **NEWS** 💎
 - Data saving changed, moved from JSON to Database storage
@@ -83,7 +83,7 @@
 
 
 
-## Update 0.2.4 - Activity Update
+## UPDATE 0.2.4 - Activity Update
 
 ✏️ **NEWS** ✏️
 - /role command now shows a list of selfassignable roles
