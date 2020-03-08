@@ -48,56 +48,76 @@
 ## Update 0.2.3
 
 💎 **NEWS** 💎
-- Změna ukládání dat, momentálně se data ukládají pohromadě do Databáze
-- Předělání SelfAssignableRolí – změna v syntaxi
-- Upravení výstupů mnoha příkazů
-- Upraven systém indexování
-- Vytvoření více konfigurací pro bota
-- Vytvořeno oddělené testovací prostředí
-- Seskupování příkazů do kategorií, ty jsou zvýrazněny v nápovědě
-- Přidání úpravy vstupní přihlašovací brány
-- Přidáno zobrazení výchozích zpráv a gamesales nastavení
-- Optimalizace a upravení generování profilu - trojnásobné zrychlení generování
-- Upravení výstupu audit values
-- Vytvoření automatického přidávání dj rolí
-- Vytvoření PipeLine pro správu bota
-- Přidání automatických testů
-- Aplikace programovacích vzorů
+- Data saving changed, moved from JSON to Database storage
+- SelfAssignableRoles - Syntax refactoring
+- Command outputs refactored
+- Refactored entity indexing
+- Created multiple configurations for bot
+- Created separate testing environment
+- Command grouping into categories, that are highlighted in help
+- Add editing of welcome gate
+- Add showing of default messages and gamesales settings
+- Profile generating optimized - speed increased 3 times
+- Audit values output refactored
+- Add autonomous DJ role assigning
+- Add pipeline for bot management
+- Add automated unit tests
 
-🐛 **Bug fixes** 🐛
-- Opravení chyby, kdy se nepřiřazovala role Dj Automaticky
-- Opravena chyba při získávání DjSettings
-- Opravena chyba při nastavování afk channelu
-- Opravena chyba při kontrole leveling role uživatele
-- Opravena chyba při nenalezení příkazu
-- Opravena chyba, když nebyla nalezena zpráva pro reakci
-- Opravena chyba v právech pro přidávání rolí
-- Opravena chyba posílání prázdné zprávy, když uživatel opustil server
-- Opravena chyba při zobrazení Komunikačních kanálů
-- Opravena změna nicknamu
-- Opravena chyba při získávání playtimu
-- Opravena chyba při zavírání a odměňování reportů
-- Opravena chyba při generování profilu
-- Opravena chyba při odebírání warnings
+🐛 **BUG FIXES** 🐛
+- Fixed not assigning DJ role automatically
+- Fixed DJSettings showing
+- Fixed bug when setting afk channel
+- Fixed bug while checking user leveling role
+- Fixed bug when command not found
+- Fixed bug when reaction message was not found
+- Fixed bug in role adding permissions
+- Fixed bug in sending empty message when user left server
+- Fixed bug when showing communication channels
+- Fixed bug when changing nickname
+- Fixed bug in adding playtime
+- Fixed bug while closing and claiming reports
+- Fixed bug in generating profile
+- Fixed bug in removing warnings
 
 ## Update 0.2.4 - Activity Update
 
 ✏️ **NEWS** ✏️
-- Upraven příkaz /role - nově zobrazí list selfassignable rolí
-- Přidáno sledování aktivity - denní, týdení, měsíční. Příkaz: /activity <daily/weekly/monthly>
-- Přidány možnosti pro smazání reportu a zobrazení reportů
-- Předěláno ukládání profilových obrázků
-- Přidání možnosti ukládání YES/NO emotikonů
-- Vylepšen hlasovací systém
-- Přidána vizualizace herních statistik příkazy v /activity
+- /role command now shows a list of selfassignable roles
+- Added activity showing - daily, weekly, monthly. Command: /activity <daily/weekly/monthly>
+- Added command to show or to remove reports
+- Refactored storing of profile images
+- Added yes/no emoji storing
+- Enhanced voting system
+- Added Game Activity Vizualization in /activity
 
 🧯 BUG FIXES 🧯
-- Opravena chyba ve výpisu, pokud je popis prázdný
-- Opravena chyba v /topusers - přidáno srovnávání dle aktuálního času
-- Opravena závažná chyba s AFK kanálem
-- Opravena chyba s vykreslováním nápovědy a duplicitními jmény
-- Opravena chyba v rolích
-- Opraveno /requestmute
-- Opravena chyba s nevykreslením profilového obrázku při změně nicknamu
-- Opravena chyba s neukládáním specifického nicknamu do databáze
-- Opravena chyba s /afk enable a disable
+- Bug fixed when output description is empty
+- Bug fixed - /topusers did not show playtime according to the actual playtime
+- Bug fixed - AFK channel
+- Bug fixed - wrong help showing, duplicite names
+- Bug fixed - roles
+- Bug fixed - /requestmute
+- Bug fixed - profile image dont generate after nickname reset
+- Bug fixed - specific nicknames were not saved into the DB
+- Bug fixed - /afk enable and disable
+
+## UPDATE beta 0.2.5 - Economy UPDATE
+
+🎐 **NEWS** 🎐
+- Add shop
+- Add guildRoles, customRoles stocked in the shop
+- Add shop detail command
+- Add possibility for dynamical setting of minimal level for nickname change
+- Add new module - User Customization - for customizing user roles
+- Add Custom role customization
+- Add Showing User custom roles
+
+💥 **BUG FIXES** 💥
+- Fixed bug when adding Guest role without accepting the rules
+- Fixed wrong command names
+- Fixed help bug - not ignoring case sensitivity
+- Fixed bug with renaming all user accounts when bot joins server
+- Fixed afk warn bug
+- Fixed command descriptions
+- Fixed bug for checking when user is in a Voice Channel
+- Fixed activity chart drawing bugs
