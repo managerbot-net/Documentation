@@ -45,7 +45,7 @@
 
 
 
-## Update 0.2.3
+## Update 0.2.3 - Database update
 
 💎 **NEWS** 💎
 - Data saving changed, moved from JSON to Database storage
@@ -109,7 +109,7 @@
 
 
 
-## UPDATE beta 0.2.5 - Economy UPDATE
+## UPDATE 0.2.5 - Economy UPDATE
 
 🎐 **NEWS** 🎐
 - Add shop
