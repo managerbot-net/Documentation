@@ -2,25 +2,23 @@
 
 ## Update 0.2.2 - Research update
 
-**NEWS**  
- 💠 Logic of the main process segmented into smaller logical parts  
- ⚜️ Add reset profile command  
- 💠 Gamesales command now allows mentioning a different author  
- ⚜️ Guild customizable gamesales  
- 💠 Role related commands moved to RoleModule  
- ⚜️ GuildModerationModule grouped to categories  
- 💠 UserModerationModule grouped to categories  
- ⚜️ Command Help - fixed command searching -&gt; highest hierarchy rank being propagated  
- 💠 Introduced online ManagerBot documentation  
- ⚜️ Reworked output of not enough permission - added required rank  
- 💠 HelpModule - Add maybe you meant clues when wrong command name is inserted  
- ⚜️ HelpModule - Order commands ascending and highlight sub-category commands  
- 💠 Server customizable afk settings  
- ⚜️ Automatically add leveling role when user doesn't have one  
-   
+💠 **NEWS** 💠 
+- Logic of the main process segmented into smaller logical parts  
+- Add reset profile command  
+- Gamesales command now allows mentioning a different author  
+- Guild customizable gamesales  
+- Role related commands moved to RoleModule  
+- GuildModerationModule grouped to categories  
+- UserModerationModule grouped to categories  
+- Command Help - fixed command searching -&gt; highest hierarchy rank being propagated  
+- Introduced online ManagerBot documentation  
+- Reworked output of not enough permission - added required rank  
+- HelpModule - Add maybe you meant clues when wrong command name is inserted  
+- HelpModule - Order commands ascending and highlight sub-category commands  
+- Server customizable afk settings  
+- Automatically add leveling role when user doesn't have one  
 
-
-💮 **BUG FIXES** ⭕️ 
+💮 **BUG FIXES** 💮 
 - Gamesales url validation error  
 - Empty embed error  
 - UserLeftGuild logging error  
@@ -35,8 +33,6 @@
 - Logging wrong commands output fixed  
 - Maximal rank adding playtime bug fixed  
    
-
-
 ✔️ **COMING SOON** ✔️ 
 - Economy system  
 - Shop  
@@ -44,6 +40,10 @@
 - Bot's Website  
 - Separation of Core and UI  
 - Unit testing  
+
+
+
+
 
 ## Update 0.2.3
 
@@ -79,6 +79,10 @@
 - Fixed bug in generating profile
 - Fixed bug in removing warnings
 
+
+
+
+
 ## Update 0.2.4 - Activity Update
 
 ✏️ **NEWS** ✏️
@@ -100,6 +104,10 @@
 - Bug fixed - profile image dont generate after nickname reset
 - Bug fixed - specific nicknames were not saved into the DB
 - Bug fixed - /afk enable and disable
+
+
+
+
 
 ## UPDATE beta 0.2.5 - Economy UPDATE
 
